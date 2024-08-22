@@ -1,0 +1,7 @@
+#ifndef LIBRO_SOLICITADO_HPP
+#define LIBRO_SOLICITADO_HPP
+
+
+
+#endif /* LIBRO_SOLICITADO_HPP */
+
