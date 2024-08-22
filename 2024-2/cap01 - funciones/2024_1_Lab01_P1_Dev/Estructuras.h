@@ -12,7 +12,7 @@
 struct LibroSolicitado{
     int numeroDePedido;
     char codigoDelLibro[8];
-	double precio;
+    double precio;
     bool atendido; // true ==> Pedido atendido
                    // false ==> Pedido no atendido
 };
