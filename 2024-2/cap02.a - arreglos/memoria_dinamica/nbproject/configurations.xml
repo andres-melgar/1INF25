@@ -4,6 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>ConjuntoNombres.hpp</itemPath>
+      <itemPath>ConjuntoNumeros.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +14,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>ConjuntoNombres.cpp</itemPath>
+      <itemPath>ConjuntoNumeros.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -39,6 +43,14 @@
           <standard>8</standard>
         </ccTool>
       </compileType>
+      <item path="ConjuntoNombres.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConjuntoNombres.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConjuntoNumeros.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConjuntoNumeros.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -63,6 +75,14 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="ConjuntoNombres.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConjuntoNombres.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ConjuntoNumeros.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ConjuntoNumeros.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
