@@ -6,7 +6,7 @@
             <name>cursos_de_alumnos</name>
             <c-extensions/>
             <cpp-extensions>cpp</cpp-extensions>
-            <header-extensions/>
+            <header-extensions>hpp</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
