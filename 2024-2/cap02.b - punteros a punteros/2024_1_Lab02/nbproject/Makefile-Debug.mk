@@ -58,7 +58,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=lib_apertura_archivos_windows.a
+LDLIBSOPTIONS=-L. lib_apertura_archivos_windows.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}

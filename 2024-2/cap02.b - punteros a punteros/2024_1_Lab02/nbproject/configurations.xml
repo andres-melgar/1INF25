@@ -52,6 +52,9 @@
           <standard>8</standard>
         </ccTool>
         <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
           <linkerLibItems>
             <linkerLibFileItem>lib_apertura_archivos_windows.a</linkerLibFileItem>
           </linkerLibItems>
