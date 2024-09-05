@@ -16,11 +16,14 @@ void lecturaDeLibros(char const *nombre_de_archivo, char ***&libros, int **&stoc
     ifstream archLibros;
     AperturaDeUnArchivoDeTextosParaLeer(archLibros, nombre_de_archivo);
     
+    int capacidad_libros, capacidad_stock, i=0;
+    inicializar_libros(libros, capacidad_libros);
+    inicializar_stock(stock, capacidad_stock);
     while (true) {
         char codigo_buffer[8];
         char titulo_buffer[100];
         char autor_buffer[100];
-        int stock__buffer;
+        int stock_buffer;
         double precio_buffer;
 
         archLibros.getline(codigo_buffer, 8, ',');
@@ -28,13 +31,19 @@ void lecturaDeLibros(char const *nombre_de_archivo, char ***&libros, int **&stoc
             break;
         archLibros.getline(titulo_buffer, 100, ',');
         archLibros.getline(autor_buffer, 100, ',');
-        archLibros>>stock__buffer;
+        archLibros>>stock_buffer;
         archLibros.get(); //sacamos la coma
         archLibros>>precio_buffer;
         //leemos el cambio de línea
         char buffer[256];
-        archLibros.getline(buffer, 255);                
+        archLibros.getline(buffer, 255);     
+        
+        incluir_libro(libros, i, capacidad_libros, codigo_buffer, titulo_buffer, autor_buffer);
+        incluir_stock(stock, i, capacidad_stock, stock_buffer, 0);
+        i++;
     }
+    incluir_fin_libro(libros, i, capacidad_libros);
+    incluir_fin_stock(stock, i, capacidad_stock);
     archLibros.close();
 }
 
@@ -72,6 +81,8 @@ void atencionDePedidos(char const *nombre_de_archivo, char ***libros, int **stoc
     ifstream archPedidos;
     AperturaDeUnArchivoDeTextosParaLeer(archPedidos, nombre_de_archivo);
     
+    int capacidad_pedidos_libros;
+    inicializar_pedidos_libros(pedidosLibros, capacidad_pedidos_libros);
     while (true) {
         int pedido_buffer;
         int dni_buffer;
@@ -91,7 +102,8 @@ void atencionDePedidos(char const *nombre_de_archivo, char ***libros, int **stoc
                 break;
 
             archPedidos >> codigo_buffer;
-                        
+            incluir_pedido_datos_libros(pedidosLibros, capacidad_pedidos_libros, pedido_buffer, codigo_buffer);
+            
             c = archPedidos.get();
             if (c == '\n' or c == 13 or c == -1)
                 break;

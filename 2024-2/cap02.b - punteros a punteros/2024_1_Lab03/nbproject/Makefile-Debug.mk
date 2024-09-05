@@ -62,13 +62,13 @@ LDLIBSOPTIONS=-L. lib_apertura_archivos_windows.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03_vacio.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03_vacio.exe: lib_apertura_archivos_windows.a
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03.exe: lib_apertura_archivos_windows.a
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03_vacio.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03_vacio ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/2024_1_lab03 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/MetodoExactoDeMemoria.o: MetodoExactoDeMemoria.cpp
 	${MKDIR} -p ${OBJECTDIR}
