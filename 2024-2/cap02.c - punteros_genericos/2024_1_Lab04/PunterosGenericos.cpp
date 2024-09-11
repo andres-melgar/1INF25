@@ -11,7 +11,9 @@ using namespace std;
 void cargaclientes(void *&clientes) {
     ifstream archClientes;
     AperturaDeUnArchivoDeTextosParaLeer(archClientes, "clientes.csv");
-
+    
+    ConjuntoClientes conjuntoClientes;
+    inicializar_conjunto_de_clientes(conjuntoClientes);    
     while (true) {
         int dni_buffer;
         char nombre_buffer[50];
@@ -22,11 +24,14 @@ void cargaclientes(void *&clientes) {
         archClientes.get(); //sacamos la coma
         archClientes.getline(nombre_buffer, 50);
 
-        cout<<dni_buffer<<" "<<nombre_buffer<<endl;
+        //cout<<dni_buffer<<" "<<nombre_buffer<<endl;
+        incluir_cliente(conjuntoClientes, dni_buffer, nombre_buffer);
     }
+    incluir_fin_cliente(conjuntoClientes);
+    conjuntoClientes >> clientes;
     archClientes.close();
     //prueba con función nuestra
-    //imprimir_clientes_void(clientes);
+    imprimir_clientes_void(clientes);
     //prueba con función de librería 
     //muestraclientes(clientes);
 }

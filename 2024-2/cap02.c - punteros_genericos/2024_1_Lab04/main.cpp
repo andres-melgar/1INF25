@@ -7,9 +7,9 @@ int main(int argc, char** argv) {
     void *clientes, *reserva;
 
     cargaclientes(clientes);
-    creareserva(reserva);
-    cargareservar(clientes, reserva);
-    reportefinal(reserva);
+    //creareserva(reserva);
+    //cargareservar(clientes, reserva);
+    //reportefinal(reserva);
     return 0;
 }
 
