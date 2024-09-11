@@ -1,0 +1,801 @@
+Libro:IIM5175   Diamantes y pedernales                                      
+Autor:Jose Maria Arguedas                               
+
+Libro:YDK7687   El otonio del patriarca                                     
+Autor:Gabriel Garcia Marquez                            
+
+Libro:ZOY6470   El viejo y el mar                                           
+Autor:Hernest Hemingway                                 
+
+Libro:ETZ8565   Confesiones de una mascara                                  
+Autor:Yukio Mishima                                     
+
+Libro:LQL0880   Contra el fascismo                                          
+Autor:Umberto Eco                                       
+
+Libro:VFZ9435   El olor de la Edad Media                                    
+Autor:Javier Traite                                     
+
+Libro:SFZ1256   La Iliada                                                   
+Autor:Homero                                            
+
+Libro:EDQ0577   Las aventuras de Pinocho                                    
+Autor:Carlo Collodi                                     
+
+Libro:YJI3961   Cien anios de soledad                                       
+Autor:Gabriel Garcia Marquez                            
+
+Libro:VPN5351   El Amante                                                   
+Autor:Ana Maria Moix                                    
+
+Libro:PVS2464   Sapiens                                                     
+Autor:Yuval Noah Harari                                 
+
+Libro:DVL7760   Falco                                                       
+Autor:Arturo Perez-Reverte                              
+
+Libro:QRH6838   Las cronicas de Narnia                                      
+Autor:C. S. Lewis                                       
+
+Libro:LDL2628   Harry Potter y el caliz de fuego (Harry Potter 4)           
+Autor:J.K. Rowling                                      
+
+Libro:SBU9053   Tierra arrasada                                             
+Autor:Alfredo Gonzalez Ruibal                           
+
+Libro:ZJM1292   El suenio del celta                                         
+Autor:Mario Vargas Llosa                                
+
+Libro:CRA4157   El forastero misterioso                                     
+Autor:Mark Twain                                        
+
+Libro:RII8346   Las dos Dianas                                              
+Autor:Alejandro Dumas                                   
+
+Libro:JBR9372   El maestro de esgrima                                       
+Autor:Arturo Perez-Reverte                              
+
+Libro:NEO9165   Emperador de Roma                                           
+Autor:Mary Beard                                        
+
+Libro:TBZ2657   Olalla                                                      
+Autor:Robert Louis Stevenson                            
+
+Libro:IBP7411   Nunca                                                       
+Autor:Ken Follett                                       
+
+Libro:GPH1575   La gran aventura de los griegos                             
+Autor:Javier Negrete                                    
+
+Libro:XIU2628   Cabo Trafalgar                                              
+Autor:Arturo Perez-Reverte                              
+
+Libro:DDT0017   Viaje al fin de la noche                                    
+Autor:Louis Ferdinand Celine                            
+
+Libro:ILG7766   Iliada                                                      
+Autor:Homero                                            
+
+Libro:HGQ0131   Odisea                                                      
+Autor:Homero                                            
+
+Libro:HLB4548   Frankenstein o el moderno Prometeo                          
+Autor:Mary W. Shelley                                   
+
+Libro:SQB7146   Cronica de una muerte anunciada                             
+Autor:Gabriel Garcia Marquez                            
+
+Libro:VHK9148   Historia y cronologia del mundo                             
+Autor:Isaac Asimov                                      
+
+Libro:MVU0233   La conspiracioni                                            
+Autor:Dan Brown                                         
+
+Libro:KWL0415   1923                                                        
+Autor:Roberto Villa Garcia                              
+
+Libro:WPU8819   Tristam Shandy                                              
+Autor:Laurence Sterne                                   
+
+Libro:JTX5687   Veinte mil leguas de viaje submarino                        
+Autor:Julio Verne                                       
+
+Libro:HCT8192   Diario                                                      
+Autor:Ana FranK                                         
+
+Libro:OMN0252   Los hermanos Karamazov                                      
+Autor:Fiodor Dostoyevski                                
+
+Libro:CKC4095   El Gran Gatsby                                              
+Autor:F. Scott Fitzgerald                               
+
+Libro:JLQ6546   El retorno del Rey                                          
+Autor:J.R.R.Tolkien                                     
+
+Libro:MSW8176   Todo se desmorona                                           
+Autor:Chinua Achebe                                     
+
+Libro:TDY0497   La chica del tren                                           
+Autor:Paula Hawkins                                     
+
+Libro:NBL8415   Espania con honra                                           
+Autor:Daniel Aquillue                                   
+
+Libro:IMC3155   Los pilares de la tierra                                    
+Autor:Ken Follett                                       
+
+Libro:FWK6327   El doble                                                    
+Autor:Fiodor Dostoyevski                                
+
+Libro:GQC1814   Apocalipticos e integrados                                  
+Autor:Umberto Eco                                       
+
+Libro:PRD1648   Relato de un naufrago                                       
+Autor:Gabriel Garcia Marquez                            
+
+Libro:SBF7018   El handicap de la vida                                      
+Autor:Rudyard Kipling                                   
+
+Libro:LVP3355   Las aventuras de Sherlock Holmes                            
+Autor:Arthur Conan Doyle                                
+
+Libro:FBO8724   El pendulo de Foucault                                      
+Autor:Umberto Eco                                       
+
+Libro:WCZ0845   El cementerio de Praga                                      
+Autor:Umberto Eco                                       
+
+Libro:WOF6634   El problema final                                           
+Autor:Arturo Perez-Reverte                              
+
+Libro:CUV7849   Ficciones                                                   
+Autor:Jorge Luis Borges                                 
+
+Libro:VMW6915   Travesuras de la ninia mala                                 
+Autor:Mario Vargas Llosa                                
+
+Libro:MBQ9495   Tormenta de espadas                                         
+Autor:George R.R.Martin                                 
+
+Libro:LQA8555   Rimas y leyendas                                            
+Autor:Gustavo Adolfo Becquer                            
+
+Libro:IMK4892   La tabla de Flandes                                         
+Autor:Arturo Perez-Reverte                              
+
+Libro:QCA9584   Dr. Jekyll y Mr. Hyde                                       
+Autor:Robert Louis Stevenson                            
+
+Libro:XJT3661   Las aventuras de Tom Sawye                                  
+Autor:Mark Twain                                        
+
+Libro:THT4126   Harry Potter y las reliquias de la muerte (Harry Potter 7)  
+Autor:J. K. Rowling                                     
+
+Libro:PZP7176   La caida de los gigantes                                    
+Autor:Ken Follett                                       
+
+Libro:UQL8643   Dracula                                                     
+Autor:Bram Stoker                                       
+
+Libro:RLQ7170   El tango de la guardia vieja                                
+Autor:Arturo Perez-Reverte                              
+
+Libro:KTA8754   Ulises                                                      
+Autor:James Joyce                                       
+
+Libro:TOJ1764   Ensayo sobre la ceguera                                     
+Autor:Jose Saramago                                     
+
+Libro:GWE4133   El gato negro y otros cuentos                               
+Autor:Edgar Allan Poe                                   
+
+Libro:ZPD6557   El ruido y la furia                                         
+Autor:William Faulkner                                  
+
+Libro:IUG2294   El proceso                                                  
+Autor:Franz Kafka                                       
+
+Libro:WGA2754   El club Dumas                                               
+Autor:Arturo Perez-Reverte                              
+
+Libro:YJE2497   Progreso del peregrino                                      
+Autor:John Bunyan                                       
+
+Libro:XCC4070   El italiano                                                 
+Autor:Arturo Perez-Reverte                              
+
+Libro:OBD2849   El invierno del mundo                                       
+Autor:Ken Follett                                       
+
+Libro:UCJ9882   El reino de este mundo                                      
+Autor:Alejo Carpentier                                  
+
+Libro:QVU3526   Vidas intrepidas                                            
+Autor:Julio Albi de la Cuesta                           
+
+Libro:VTY5195   Un asunto de honor                                          
+Autor:Arturo Perez-Reverte                              
+
+Libro:FKK6524   Los renglones torcidos de Dios                              
+Autor:Torcuato Luca de Tena                             
+
+Libro:KPE7420   Jane Eyre                                                   
+Autor:Charlotte Brontë                                  
+
+Libro:MWB2923   Mudlarking                                                  
+Autor:Lara Maiklem                                      
+
+Libro:ISY5671   Harry Potter y la piedra filosofal (Harry Potter 1)         
+Autor:J. K. Rowling                                     
+
+Libro:NBE1339   Palmeras en la nieve                                        
+Autor:Luz Gabas                                         
+
+Libro:JHP0390   El conde de Montecristo                                     
+Autor:Alexandre Dumas                                   
+
+Libro:OWU1533   Cuatro principes                                            
+Autor:John Julius Norwich                               
+
+Libro:SFR1226   Ana la de las tejas verdes                                  
+Autor:Lucy Maud Montgomery                              
+
+Libro:HRT0664   Los funerales de la Mama Grande                             
+Autor:Gabriel Garcia Marquez                            
+
+Libro:HPP3360   El pintor de batallas                                       
+Autor:Arturo Perez-Reverte                              
+
+Libro:DND9446   Lo que el viento se llevo                                   
+Autor:Margaret Mitchell                                 
+
+Libro:LJD9991   Baudolino                                                   
+Autor:Umberto Eco                                       
+
+Libro:XIU6076   Rebelion en la granja                                       
+Autor:George Orwell                                     
+
+Libro:PWX7633   La tia Julia y el escribidor                                
+Autor:Mario Vargas Llosa                                
+
+Libro:UXZ2187   Los 7 habitos de la gente altamente efectiva                
+Autor:Stephen R. Covey                                  
+
+Libro:UEJ1235   Grandes esperanzas                                          
+Autor:Charles Dickens                                   
+
+Libro:DDQ0721   En busca del tiempo perdido                                 
+Autor:Marcel Proust                                     
+
+Libro:HWM4049   Romper el circulo                                           
+Autor:Colleen Hoover                                    
+
+Libro:EWI3090   La seniora Dalloway                                         
+Autor:Virginia Woolf                                    
+
+Libro:JZC7527   El tambor de hojalata                                       
+Autor:Gunter Grass                                      
+
+Libro:WYE2119   El asedio                                                   
+Autor:Arturo Perez-Reverte                              
+
+Libro:YKQ9278   Alicia en el pais de las maravillas                         
+Autor:Lewis Carroll                                     
+
+Libro:ZNF2241   El extranio caso del Dr. Jekyll y Mr. Hyde                  
+Autor:Robert Louis Stevenson                            
+
+Libro:CTW5846   El medievo cristiano                                        
+Autor:Mario Merlino                                     
+
+Libro:FWP8469   Justine o los infortunios                                   
+Autor:Charles Dickens                                   
+
+Libro:CRY6839   Ricardo III                                                 
+Autor:William Shakespeare                               
+
+Libro:WMN3648   Pasaje a la India                                           
+Autor:E. M. Forster                                     
+
+Libro:QBL9575   Los miserables                                              
+Autor:Victor Hugo                                       
+
+Libro:VOI0019   El evangelio según Jesucristo                               
+Autor:Jose Saramago                                     
+
+Libro:TMR5068   Los tres mosqueteros                                        
+Autor:Alejandro Dumas                                   
+
+Libro:RWW7975   El nombre de la rosa                                        
+Autor:Umberto Eco                                       
+
+Libro:LJE6687   El codigo Da Vinci                                          
+Autor:Dan Brown                                         
+
+Libro:PPI9259   Revolucion                                                  
+Autor:Arturo Perez-Reverte                              
+
+Libro:ZYF6683   Harry Potter y la Orden del Fenix ( Harry Potter 5)         
+Autor:J. K. Rowling                                     
+
+Libro:GKG6581   Hombres buenos                                              
+Autor:Arturo Perez-Reverte                              
+
+Libro:WWT1581   La piel del tambor                                          
+Autor:Arturo Perez-Reverte                              
+
+Libro:CMP1150   Don Quijote de la Mancha                                    
+Autor:Miguel de Cervantes                               
+
+Libro:CPE5718   Paris era una fiesta                                        
+Autor:Hernest Hemingway                                 
+
+Libro:SHF2360   Un dia de colera                                            
+Autor:Arturo Perez-Reverte                              
+
+Libro:ETV5056   Moby Dick                                                   
+Autor:Herman Melville                                   
+
+Libro:USE5598   Fortaleza digitali                                          
+Autor:Dan Brown                                         
+
+Libro:TVR7016   El corazon de las tinieblas                                 
+Autor:Joseph Conrad                                     
+
+Libro:BSX2922   Una historia de Espania                                     
+Autor:Arturo Perez-Reverte                              
+
+Libro:GXB5722   Cumbres borrascosas                                         
+Autor:Emily Brontë                                      
+
+Libro:ZLE2920   Historia de la Edad Media                                   
+Autor:Indro Montanelli                                  
+
+Libro:MNL3677   El Hobbit                                                   
+Autor:J.R.R. Tolkien                                    
+
+Libro:ZAL2738   1984                                                        
+Autor:George Orwell                                     
+
+Libro:PQZ1316   La Eneida                                                   
+Autor:Virgilio                                          
+
+Libro:DDU0764   Dioses tumbas y sabios                                      
+Autor:C. W. Ceram                                       
+
+Libro:EEJ4830   El Principito                                               
+Autor:Antoine de Saint-Exupery                          
+
+Libro:DPZ8059   El hombre que pudo reinar                                   
+Autor:Rudyard Kipling                                   
+
+Libro:JJV7549   Los hombres que no amaban a las mujeres                     
+Autor:Stieg Larsson                                     
+
+Libro:JXK3142   En el camino                                                
+Autor:Jack Kerouac                                      
+
+Libro:USM9579   El perfume                                                  
+Autor:Patrick Suskind                                   
+
+Libro:JGG5049   El eterno marido                                            
+Autor:Fiodor Dostoyevski                                
+
+Libro:MIK5358   La transformacion del mundo                                 
+Autor:Jürgen Osterhammel                                
+
+Libro:BDK4183   La isla del tesoro                                          
+Autor:Robert Louis Stevenson                            
+
+Libro:ECT0289   Juego de tronos                                             
+Autor:George R.R.Martin                                 
+
+Libro:DVR5984   Mil soles esplendidos                                       
+Autor:Khaled Hosseini                                   
+
+Libro:EBE0042   Capitanes intrepidos                                        
+Autor:Rudyard Kipling                                   
+
+Libro:CXW5879   Los barcos se pierden en tierra                             
+Autor:Arturo Perez-Reverte                              
+
+Libro:GOG7446   El guardian entre el centeno                                
+Autor:J. D. Salinger                                    
+
+Libro:QYH7021   Historia del siglo XX: 1914-1991                            
+Autor:Eric Hobsbawm                                     
+
+Libro:KCI5219   El Maestro y Margarita                                      
+Autor:Mijail Bulgakov                                   
+
+Libro:FMX8255   Las aventuras de Huckleberry Finn                           
+Autor:Mark Twain                                        
+
+Libro:ZQY9966   El suenio del tio                                           
+Autor:Fiodor Dostoyevski                                
+
+Libro:DXP8640   El retrato de Dorian Gray                                   
+Autor:Oscar Wilde                                       
+
+Libro:LRV5687   La guerra del fin del mundo                                 
+Autor:Mario Vargas Llosa                                
+
+Libro:EBT7258   Linea de fuego                                              
+Autor:Arturo Perez-Reverte                              
+
+Libro:ELC8965   Las aventuras de Rocambole                                  
+Autor:Ponson Du Terrail                                 
+
+Libro:ULM8751   La sumisa                                                   
+Autor:Fiodor Dostoyevski                                
+
+Libro:PGK5617   El Rey Lear                                                 
+Autor:William Shakespeare                               
+
+Libro:QFG6515   El libro de la selva                                        
+Autor:Rudyard Kipling                                   
+
+Libro:QVX9089   Madame Bovary                                               
+Autor:Gustave Flaubert                                  
+
+Libro:QMI4747   La isla de los amores infinitos                             
+Autor:Daina Chaviano                                    
+
+Libro:SMW0186   La sombra del viento                                        
+Autor:Carlos Ruiz Zafon                                 
+
+Libro:HSE3213   Por quien doblan las campanas                               
+Autor:Hernest Hemingway                                 
+
+Libro:RZX8790   El senior de las moscas                                     
+Autor:William Golding                                   
+
+Libro:XMT1768   Los diarios de Adan y Eva                                   
+Autor:Mark Twain                                        
+
+Libro:HGN9910   La ciudad y los perros                                      
+Autor:Mario Vargas Llosa                                
+
+Libro:JNC0786   Mi isla                                                     
+Autor:Elisabet Benavent                                 
+
+Libro:HHR5161   El francotirador paciente                                   
+Autor:Arturo Perez-Reverte                              
+
+Libro:FNM6936   Divina comedia                                              
+Autor:Dante Alighieri                                   
+
+Libro:HVZ1228   El húsar                                                    
+Autor:Arturo Perez-Reverte                              
+
+Libro:MKB4184   Napoleon                                                    
+Autor:Alejandro Dumas                                   
+
+Libro:KBF4088   Harry Potter y el prisionero de Azkaban (Harry Potter 3)    
+Autor:J.K. Rowling                                      
+
+Libro:ZQD4253   Harry Potter y el misterio del principe ( Harry Potter 6)   
+Autor:J. K. Rowling                                     
+
+Libro:PHL4155   El idiota                                                   
+Autor:Fiodor Dostoyevski                                
+
+Libro:EYV0597   Cuentos de la selva                                         
+Autor:Horacio Quiroga                                   
+
+Libro:AKU9740   Conversacion en La Catedral                                 
+Autor:Mario Vargas Llosa                                
+
+Libro:ACM9578   Amadis de gaula                                             
+Autor:Garci Rodriguez Montalvo                          
+
+Libro:OCI8959   David Copperfield                                           
+Autor:Charles Dickens                                   
+
+Libro:EJE8138   Yawar fiesta                                                
+Autor:Jose Maria Arguedas                               
+
+Libro:WHU1288   La hija italiana                                            
+Autor:Soraya Lane                                       
+
+Libro:ICU6090   La fiesta del chivo                                         
+Autor:Mario Vargas Llosa                                
+
+Libro:BUC5125   El faro de Stalingrado                                      
+Autor:Iain MacGregor                                    
+
+Libro:BUY4915   La sombra del aguila                                        
+Autor:Arturo Perez-Reverte                              
+
+Libro:USK1312   Un mundo sin fin                                            
+Autor:Ken Follett                                       
+
+Libro:VFO4193   La catedral del mar                                         
+Autor:Ildefonso Falcones                                
+
+Libro:OWO8918   Origen                                                      
+Autor:Dan Brown                                         
+
+Libro:YZV6954   Corazon de las tinieblas                                    
+Autor:Joseph Conrad                                     
+
+Libro:CLG5566   Pantaleon y las visitadoras                                 
+Autor:Mario Vargas Llosa                                
+
+Libro:IUI3314   El coronel no tiene quien le escriba                        
+Autor:Gabriel Garcia Marquez                            
+
+Libro:EFD3949   La divina comedia                                           
+Autor:Dante Alighieri                                   
+
+Libro:FVV9246   Matar a un ruisenior                                        
+Autor:Harper Lee                                        
+
+Libro:SPM4763   Eva                                                         
+Autor:Arturo Perez-Reverte                              
+
+Libro:BHD6079   Zorba el griego                                             
+Autor:Nikos Kazantzakis                                 
+
+Libro:RYI5447   El corazon es un cazador solitario                          
+Autor:Carson Mccullers                                  
+
+Libro:BUB3833   Otelo                                                       
+Autor:William Shakespeare                               
+
+Libro:EUO8195   El jardin del Eden                                          
+Autor:Hernest Hemingway                                 
+
+Libro:KSX7995   El simbolo perdidoi                                         
+Autor:Dan Brown                                         
+
+Libro:MTZ2227   Hamlet                                                      
+Autor:William Shakespeare                               
+
+Libro:JSM8271   La Odisea                                                   
+Autor:Homero                                            
+
+Libro:KVL6246   La edad media - barbaros - cristianos y musulmanes          
+Autor:Umberto Eco                                       
+
+Libro:QMJ4188   Emma                                                        
+Autor:Jane Austen                                       
+
+Libro:QKH2262   Fiesta                                                      
+Autor:Hernest Hemingway                                 
+
+Libro:HXB2949   El medico                                                   
+Autor:Noah Gordon                                       
+
+Libro:OBH4691   Crimen y castigo                                            
+Autor:Fiodor Dostoyevski                                
+
+Libro:IPE3429   Sidi                                                        
+Autor:Arturo Perez-Reverte                              
+
+Libro:ILA4795   La ladrona de libros                                        
+Autor:Markus ZusaK                                      
+
+Libro:EFQ0297   Trampa 22                                                   
+Autor:Joseph Heller                                     
+
+Libro:BRG4234   La telarania de Carlota                                     
+Autor:E. B. White                                       
+
+Libro:EZP0333   La Reina del Sur                                            
+Autor:Arturo Perez-Reverte                              
+
+Libro:MBB0685   El capitan Alatriste                                        
+Autor:Arturo Perez-Reverte                              
+
+Libro:CST1133   Inferno                                                     
+Autor:Dan Brown                                         
+
+Libro:RNG2321   El Aleph                                                    
+Autor:Jorge Luis Borges                                 
+
+Libro:RSK1164   El amor en los tiempos del colera                           
+Autor:Gabriel Garcia Marquez                            
+
+Libro:WYS2674   Secuestrado                                                 
+Autor:Robert Louis Stevenson                            
+
+Libro:CRR5443   Un mundo feliz                                              
+Autor:Aldous Huxley                                     
+
+Libro:JEN0751   Ana Karenina                                                
+Autor:Leon Tolstoi                                      
+
+Libro:IGT8523   Una columna de fuego                                        
+Autor:Ken Follett                                       
+
+Libro:FYV9055   Macbeth                                                     
+Autor:William Shakespeare                               
+
+Libro:LGB2311   Decameron                                                   
+Autor:Giovanni Boccaccio                                
+
+Libro:MEH2993   Hijos de un tiempo perdido                                  
+Autor:Jose Maria Bermúdez de Castro                     
+
+Libro:CJN4376   Harry Potter y la camara secreta (Harry Potter 2)           
+Autor:J. K. Rowling                                     
+
+Libro:ION3794   Crepúsculo                                                  
+Autor:Stephenie Meyer                                   
+
+Libro:HDA2333   Lituma en los Andes                                         
+Autor:Mario Vargas Llosa                                
+
+Libro:CKR6798   El lobo estepario                                           
+Autor:Hermann Hesse                                     
+
+Libro:GDA4236   Gente normal                                                
+Autor:Sally Rooney                                      
+
+Libro:BAP2859   El túnel                                                    
+Autor:Ernesto Sabato                                    
+
+Libro:EHX6253   La isla de las tormentas                                    
+Autor:Ken Follett                                       
+
+Libro:OUU5470   La carta esferica                                           
+Autor:Arturo Perez-Reverte                              
+
+Libro:PQB0775   El diablo de la botella y otros cuentos                     
+Autor:Robert Louis Stevenson                            
+
+Libro:DEF7625   Las uvas de la ira                                          
+Autor:John SteinbecK                                    
+
+Libro:UDS2730   Los Nibelungos                                              
+Autor:Anonimo                                           
+
+Libro:DTH6788   Los perros duros no bailan                                  
+Autor:Arturo Perez-Reverte                              
+
+Libro:KLV1872   Orgullo y prejuicio                                         
+Autor:Jane Austen                                       
+
+Libro:BUT4998   Lolita                                                      
+Autor:Vladimir Nabokov                                  
+
+Libro:XBC5847   Tiempos recios                                              
+Autor:Mario Vargas Llosa                                
+
+Libro:AZL1098   El extranjero                                               
+Autor:Albert Camus                                      
+
+Libro:BZY0235   Fausto                                                      
+Autor:Johann Wolfgang Von Goethe                        
+
+Libro:QQQ4712   Nuestra Seniora de Paris                                    
+Autor:Victor Hugo                                       
+
+Libro:BTX3816   El jugador                                                  
+Autor:Fiodor Dostoyevski                                
+
+Libro:MLC7198   Los rios profundos                                          
+Autor:Jose Maria Arguedas                               
+
+Libro:JZU0977   El alquimista                                               
+Autor:Paulo Coelho                                      
+
+Libro:AGQ7769   La Flecha Negra                                             
+Autor:Robert Louis Stevenson                            
+
+Libro:BXE0974   Los viajes de Gulliver                                      
+Autor:Jonathan Swift                                    
+
+Libro:UFK9792   El psicoanalista                                            
+Autor:John Katzenbach                                   
+
+Libro:XRL3393   Le dedico mi silencio                                       
+Autor:Mario Vargas Llosa                                
+
+Libro:GUN8655   Angeles y demoniosi                                         
+Autor:Dan Brown                                         
+
+Libro:NGQ6935   La casa de los espiritus                                    
+Autor:Isabel Allende                                    
+
+Libro:PWB4941   La montania magica                                          
+Autor:Thomas Mann                                       
+
+Libro:NEW1762   Territorio comanche                                         
+Autor:Arturo Perez-Reverte                              
+
+Libro:QHZ8547   Adios a las armas                                           
+Autor:Hernest Hemingway                                 
+
+Libro:PCS8992   Y no quedo ninguno                                          
+Autor:Agatha Christie                                   
+
+Libro:VFI8064   A sangre fria                                               
+Autor:Truman Capote                                     
+
+Libro:XTM9385   El mundo                                                    
+Autor:Simon Sebag Montefiore                            
+
+Libro:VDL9379   Los juegos del hambre                                       
+Autor:Suzanne Collins                                   
+
+Libro:IFL0150   Romeo y Julieta                                             
+Autor:William Shakespeare                               
+
+Libro:JZQ8143   Suenios de robot                                            
+Autor:Isaac Asimov                                      
+
+Libro:SXT1015   Mientras agonizo                                            
+Autor:William Faulkner                                  
+
+Libro:KGO1734   Una historia del mundo                                      
+Autor:Andrew Marr                                       
+
+Libro:SMI7078   Los cachorros                                               
+Autor:Mario Vargas Llosa                                
+
+Libro:RAO4129   Stalingrado                                                 
+Autor:Jonathan Trigg                                    
+
+Libro:VYG3594   Los demonios                                                
+Autor:Fiodor Dostoyevski                                
+
+Libro:HLC2748   El senior de los anillos (Trilogia)                         
+Autor:J.R.R.Tolkien                                     
+
+Libro:GJM4671   Origenes                                                    
+Autor:Lewis Dartnell                                    
+
+Libro:VYK6352   Armas germenes y acero                                      
+Autor:Jared Diamond                                     
+
+Libro:VSG3432   Bajo bandera negra                                          
+Autor:David Cordingly                                   
+
+Libro:OQK1590   Cometas en el cielo                                         
+Autor:Khaled Hosseini                                   
+
+Libro:JXC1015   Robinson Crusoe                                             
+Autor:Daniel Defoe                                      
+
+Libro:TAB4639   El color que cayo del cielo                                 
+Autor:H. P. Lovecraft                                   
+
+Libro:YXF2137   En agosto nos vemos                                         
+Autor:Gabriel Garcia Marquez                            
+
+Libro:SIR3963   Memorias de una geisha                                      
+Autor:Arthur Golden                                     
+
+Libro:ALH8812   Guerra y Paz                                                
+Autor:Leon Tolstoi                                      
+
+Libro:UCA0857   SPQR: una historia de la antigua Roma                       
+Autor:Mary Beard                                        
+
+Libro:KLO8691   Catedral                                                    
+Autor:Raymond Carver                                    
+
+Libro:HPM0950   Fahrenheit 451                                              
+Autor:Ray Bradbury                                      
+
+Libro:JOF6762   Ojos azules                                                 
+Autor:Arturo Perez-Reverte                              
+
+Libro:DEK2757   En llamas                                                   
+Autor:Suzanne Collins                                   
+
+Libro:RRE8138   Trilogia de la Fundacion                                    
+Autor:Isaac Asimov                                      
+
+Libro:JKE9650   La metamorfosis                                             
+Autor:Franz Kafka                                       
+
+Libro:BZX4462   Culpa mia                                                   
+Autor:Mercedes Ron                                      
+
+Libro:NFP3266   Sabotaje                                                    
+Autor:Arturo Perez-Reverte                              
+
