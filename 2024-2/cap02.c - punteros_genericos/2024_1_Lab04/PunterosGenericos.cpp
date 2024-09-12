@@ -31,7 +31,7 @@ void cargaclientes(void *&clientes) {
     conjuntoClientes >> clientes;
     archClientes.close();
     //prueba con función nuestra
-    imprimir_clientes_void(clientes);
+    //imprimir_clientes_void(clientes);
     //prueba con función de librería 
     //muestraclientes(clientes);
 }
@@ -40,6 +40,8 @@ void creareserva(void *&reserva) {
     ifstream archLibros;
     AperturaDeUnArchivoDeTextosParaLeer(archLibros, "libros.csv");
 
+    ConjuntoReservas conjuntoReservas;
+    inicializar_conjunto_de_reservas(conjuntoReservas);
     while (true) {
         char codigo_buffer[8];
         char titulo_buffer[100];
@@ -58,8 +60,12 @@ void creareserva(void *&reserva) {
         //leemos el cambio de línea
         char buffer[256];
         archLibros.getline(buffer, 255);
-        cout << codigo_buffer << " " << titulo_buffer << " " << autor_buffer << " " << stock__buffer << " " << precio_buffer << endl;        
-    }    
+        //cout << codigo_buffer << " " << titulo_buffer << " " << autor_buffer << " " << stock__buffer << " " << precio_buffer << endl;        
+        incluir_libro(conjuntoReservas, codigo_buffer, titulo_buffer, autor_buffer, stock__buffer);
+    }   
+    incluir_fin_reserva(conjuntoReservas);
+    conjuntoReservas >> reserva;
+    
     //prueba con función nuestra
     //imprimir_reservas_void(reserva);    
     //prueba con función de librería
@@ -81,7 +87,8 @@ void cargareservar(void *clientes, void *reserva) {
         archPedidos.get(); //sacamos la coma
         archPedidos.getline(codigo_buffer, 8);
                         
-        cout<<dni_buffer<<" "<<codigo_buffer<<endl;        
+        //cout<<dni_buffer<<" "<<codigo_buffer<<endl;        
+        procesar_reserva(clientes, reserva, dni_buffer, codigo_buffer);
     }
     archPedidos.close();
 }

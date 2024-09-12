@@ -35,8 +35,26 @@ void operator>>(const ConjuntoClientes &conjuntoClientes, void *&clientes) {
 
 void imprimir_clientes_void(void *clientes) {
     void **bloque_clientes = (void**)clientes;
+    int i = 0;
+    /*while(bloque_clientes[i] != nullptr){
+        void **bloque_cliente = (void**)bloque_clientes[i];
+        int *dni_dinamico = (int*)bloque_cliente[0];
+        char *nombre_dinamico = (char*)bloque_cliente[1];
+        cout<<*dni_dinamico<<" - "<<nombre_dinamico<<endl;
+        i++;
+    }*/
+    /*while(*bloque_clientes){
+        void **bloque_cliente = (void**)bloque_clientes[0];
+        int *dni_dinamico = (int*)bloque_cliente[0];
+        char *nombre_dinamico = (char*)bloque_cliente[1];
+        cout<<*dni_dinamico<<" - "<<nombre_dinamico<<endl;
+        bloque_clientes++;
+    }*/
     while(*bloque_clientes){
-        
+        void **bloque_cliente = (void**)*bloque_clientes;
+        int *dni_dinamico = (int*)bloque_cliente[0];
+        char *nombre_dinamico = (char*)bloque_cliente[1];
+        cout<<*dni_dinamico<<" - "<<nombre_dinamico<<endl;
         bloque_clientes++;
     }
 }
