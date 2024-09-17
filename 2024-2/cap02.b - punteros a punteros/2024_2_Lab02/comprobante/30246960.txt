@@ -1,0 +1,13 @@
+========================================
+    D.N.I. CLIENTE: 30246960
+ CODIGO REPARTIDOR: MAF774
+========================================
+ITEM PLATO                 CANT SUBTOTAL
+----------------------------------------
+  01 1/4 POLLO  PARRILLERO ORIGINAL- ARROCERO1 33.50
+  02 1/4 POLLO PARRILLERO ORIGINAL - ANTICUCHO3 131.70
+----------------------------------------
+                     SUBTOTAL: 165.20
+                       I.G.V.: 029.74
+                        TOTAL: 194.94
+========================================

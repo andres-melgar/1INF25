@@ -1,0 +1,14 @@
+========================================
+    D.N.I. CLIENTE: 68269451
+ CODIGO REPARTIDOR: MCE193
+========================================
+ITEM PLATO                 CANT SUBTOTAL
+----------------------------------------
+  01 CERVEZA PILSEN...........1 12.00
+  02 CASILLERO DEL DIABLO TINTO1 73.90
+  03 1/4 POLLO  PARRILLERO ORIGINAL- ARROCERO3 100.50
+----------------------------------------
+                     SUBTOTAL: 186.40
+                       I.G.V.: 033.55
+                        TOTAL: 219.95
+========================================

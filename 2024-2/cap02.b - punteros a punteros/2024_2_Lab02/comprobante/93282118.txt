@@ -1,0 +1,15 @@
+========================================
+    D.N.I. CLIENTE: 93282118
+ CODIGO REPARTIDOR: PVJ527
+========================================
+ITEM PLATO                 CANT SUBTOTAL
+----------------------------------------
+  01 PLATANO-HUEVO............3 20.70
+  02 1/2 POLLO PARRILLERO ORIGINAL - PAPAS - ENSALADA2 95.80
+  03 1/4 POLLO - PAPAS - ENSALADA2 59.00
+  04 COCIDA REGULAR...........1 18.90
+----------------------------------------
+                     SUBTOTAL: 194.40
+                       I.G.V.: 034.99
+                        TOTAL: 229.39
+========================================

@@ -1,0 +1,15 @@
+========================================
+    D.N.I. CLIENTE: 36471787
+ CODIGO REPARTIDOR: DTE915
+========================================
+ITEM PLATO                 CANT SUBTOTAL
+----------------------------------------
+  01 1/4 POLLO BBQ/HOT - ARROCERO1 34.50
+  02 SENSACION MEDIANA CON POLLO2 47.80
+  03 TORTA DE NARANJA.........3 47.70
+  04 1/2 POLLO PARRILLERO ORIGINAL - ENCAMOTADO2 101.80
+----------------------------------------
+                     SUBTOTAL: 231.80
+                       I.G.V.: 041.72
+                        TOTAL: 273.52
+========================================

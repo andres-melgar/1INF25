@@ -1,0 +1,15 @@
+========================================
+    D.N.I. CLIENTE: 17299012
+ CODIGO REPARTIDOR: BCJ176
+========================================
+ITEM PLATO                 CANT SUBTOTAL
+----------------------------------------
+  01 1/2 POLLO PARRILLERO ORIGINAL A LO BRAVO1 51.90
+  02 1/4 POLLO PARRILLERO ORIGINAL - ANTICUCHO1 43.90
+  03 PIQUEOS CHORIZOS COCKTAIL2 33.80
+  04 CESARS GRANDE CON POLLO..1 32.90
+----------------------------------------
+                     SUBTOTAL: 162.50
+                       I.G.V.: 029.25
+                        TOTAL: 191.75
+========================================
