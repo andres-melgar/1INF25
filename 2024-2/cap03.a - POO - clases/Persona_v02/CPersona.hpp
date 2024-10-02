@@ -13,7 +13,15 @@ private:
     char *materno;
     char *nombre;
 public:
+    CPersona();
+    
+    CPersona(char *paterno, char *materno, char *nombre);
+    
+    CPersona(const CPersona &persona);
+    
     void imprimir();
+    
+    void pasar_a_mayuscula();
     
     void setPaterno(char *paterno);
     

@@ -12,9 +12,15 @@ private:
     double x;
     double y;
 public:    
+    //CPunto2D();
+    
+    CPunto2D(int x = 1, int y = 2);
+    
     void imprimir();
     
     double distancia(const CPunto2D &punto);
+    
+    bool es_igual(const CPunto2D &punto);
     
     void setX(double x);
     
