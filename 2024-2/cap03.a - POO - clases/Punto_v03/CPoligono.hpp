@@ -1,7 +1,10 @@
 #ifndef CPOLIGONO_HPP
 #define CPOLIGONO_HPP
 
+#include <iostream>
 #include "CPunto2D.hpp"
+
+using namespace std;
 
 class CPoligono{
 private:
@@ -21,6 +24,8 @@ public:
     double calcular_area();
     
     int getCantidad_vertices();    
+    
+    friend ostream &operator<<(ostream &out, const CPoligono &poligono);
 };
 
 #endif /* CPOLIGONO_HPP */

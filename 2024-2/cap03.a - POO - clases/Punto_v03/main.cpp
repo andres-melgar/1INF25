@@ -21,6 +21,7 @@ void test05();
 void test06();
 void test07();
 void test08();
+void test09();
 
 int main(int argc, char** argv) {
     test01();
@@ -31,7 +32,21 @@ int main(int argc, char** argv) {
     test06();
     test07();
     test08();
+    test09();
     return 0;
+}
+
+void test09(){
+    CPoligono poligono;
+    
+    assert(poligono.getCantidad_vertices()==0);
+    poligono.agregarVertice(3,4);
+    poligono.agregarVertice(5,11);
+    poligono.agregarVertice(12,8);
+    poligono.agregarVertice(9,5);
+    poligono.agregarVertice(5,6);
+    
+    cout<<poligono;
 }
 
 void test08(){
