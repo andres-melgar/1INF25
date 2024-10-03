@@ -19,6 +19,8 @@ public:
     
     CPersona(const CPersona &persona);
     
+    ~CPersona();
+    
     void imprimir();
     
     void pasar_a_mayuscula();

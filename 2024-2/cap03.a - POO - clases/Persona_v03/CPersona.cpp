@@ -28,8 +28,20 @@ CPersona::CPersona(const CPersona &persona){
     this->setNombre(persona.nombre);
 }
 
+CPersona::~CPersona(){
+    //cout<<"se está ejecutando el destructor de: ";
+    //this->imprimir();
+    //cout<<endl;
+    libera_cadena(this->paterno);
+    libera_cadena(this->materno);
+    libera_cadena(this->nombre);
+}
+
 void CPersona::imprimir() {
-    cout << this->paterno << " " << this->materno << ", " << this->nombre << endl;
+    if (this->paterno != nullptr and this->materno != nullptr and this->nombre != nullptr)
+        cout << this->paterno << " " << this->materno << ", " << this->nombre << endl;
+    else
+        cout << "sin nombre"<<endl;
 }
 
 void CPersona::pasar_a_mayuscula(){
@@ -39,6 +51,7 @@ void CPersona::pasar_a_mayuscula(){
 }
 
 void CPersona::setPaterno(char *paterno) {
+    libera_cadena(this->paterno);
     this->paterno = mi_strdup(paterno);
 }
 
@@ -49,6 +62,7 @@ char *CPersona::getPaterno() {
 }
 
 void CPersona::setMaterno(char *materno) {
+    libera_cadena(this->materno);
     this->materno = mi_strdup(materno);
 }
 
@@ -59,6 +73,7 @@ char *CPersona::getMaterno() {
 }
 
 void CPersona::setNombre(char *nombre) {
+    libera_cadena(this->nombre);
     this->nombre = mi_strdup(nombre);
 }
 

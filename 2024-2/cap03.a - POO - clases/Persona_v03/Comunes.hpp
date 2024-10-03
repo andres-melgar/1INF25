@@ -11,5 +11,7 @@ char *mi_strdup(char *cadena);
 
 void a_mayusculas(char *cadena);
 
+void libera_cadena(char *&cadena);
+
 #endif /* COMUNES_HPP */
 

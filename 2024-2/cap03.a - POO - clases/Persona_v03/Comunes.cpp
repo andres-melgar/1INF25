@@ -16,3 +16,10 @@ void a_mayusculas(char *cadena){
         cadena++;
     }
 }
+
+void libera_cadena(char *&cadena){
+    if (cadena != nullptr){
+        delete cadena;
+        cadena = nullptr;
+    }
+}
