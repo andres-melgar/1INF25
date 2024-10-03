@@ -9,6 +9,7 @@
 #include <cmath>
 #include <assert.h>
 #include "CPunto2D.hpp"
+#include "CPoligono.hpp"
 
 using namespace std;
 
@@ -18,6 +19,8 @@ void test03();
 void test04();
 void test05();
 void test06();
+void test07();
+void test08();
 
 int main(int argc, char** argv) {
     test01();
@@ -26,7 +29,65 @@ int main(int argc, char** argv) {
     test04();
     test05();
     test06();
+    test07();
+    test08();
     return 0;
+}
+
+void test08(){
+    CPoligono poligono;
+    
+    assert(poligono.getCantidad_vertices()==0);
+    poligono.agregarVertice(3,4);
+    assert(poligono.getCantidad_vertices()==1);
+    poligono.agregarVertice(5,11);
+    assert(poligono.getCantidad_vertices()==2);
+    poligono.agregarVertice(12,8);
+    assert(poligono.getCantidad_vertices()==3);
+    poligono.agregarVertice(9,5);
+    assert(poligono.getCantidad_vertices()==4);
+    poligono.agregarVertice(5,6);
+    assert(poligono.getCantidad_vertices()==5);
+    cout<<"area: "<<poligono.calcular_area()<<endl;
+    assert(poligono.calcular_area()==30);
+    
+    poligono.borrar_vertices();
+    assert(poligono.getCantidad_vertices()==0);
+    poligono.agregarVertice(-2,-4);
+    assert(poligono.getCantidad_vertices()==1);
+    poligono.agregarVertice(6,-2);
+    assert(poligono.getCantidad_vertices()==2);
+    poligono.agregarVertice(7,4);
+    assert(poligono.getCantidad_vertices()==3);
+    poligono.agregarVertice(-8,2);
+    assert(poligono.getCantidad_vertices()==4);
+    assert(poligono.calcular_area()==74);
+    
+    poligono.borrar_vertices();
+    assert(poligono.getCantidad_vertices()==0);
+    poligono.agregarVertice(2,4);
+    assert(poligono.getCantidad_vertices()==1);
+    poligono.agregarVertice(3,-8);
+    assert(poligono.getCantidad_vertices()==2);
+    poligono.agregarVertice(1,2);
+    assert(poligono.getCantidad_vertices()==3);    
+    assert(poligono.calcular_area()==7);
+}
+
+void test07(){
+    CPoligono poligono;
+    
+    assert(poligono.getCantidad_vertices()==0);
+    poligono.agregarVertice(3,4);
+    assert(poligono.getCantidad_vertices()==1);
+    poligono.agregarVertice(5,11);
+    assert(poligono.getCantidad_vertices()==2);
+    poligono.agregarVertice(12,8);
+    assert(poligono.getCantidad_vertices()==3);
+    poligono.agregarVertice(9,5);
+    assert(poligono.getCantidad_vertices()==4);
+    poligono.agregarVertice(5,6);
+    assert(poligono.getCantidad_vertices()==5);
 }
 
 void test06() {
