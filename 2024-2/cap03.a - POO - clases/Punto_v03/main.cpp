@@ -48,7 +48,6 @@ void test08(){
     assert(poligono.getCantidad_vertices()==4);
     poligono.agregarVertice(5,6);
     assert(poligono.getCantidad_vertices()==5);
-    cout<<"area: "<<poligono.calcular_area()<<endl;
     assert(poligono.calcular_area()==30);
     
     poligono.borrar_vertices();

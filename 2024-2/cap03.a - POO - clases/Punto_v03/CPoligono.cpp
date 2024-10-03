@@ -38,7 +38,7 @@ void CPoligono::borrar_vertices(){
 }
 
 double CPoligono::calcular_area(){
-    if (this->cantidad_vertices>=2)
+    if (this->cantidad_vertices<=2)
         return 0;
     double sumatoria1=0, sumatoria2=0;
     CPunto2D p1, pa; //p1 es el punto1 y pa, es el punto anterior
@@ -47,9 +47,6 @@ double CPoligono::calcular_area(){
             p1=this->vertices[i];
         else{
             CPunto2D punto = this->vertices[i];
-            cout<<"punto "<<i<<": "
-            punto.imprimir();
-            cout<<endl;
             sumatoria1 += pa.getX()*punto.getY();
             sumatoria2 += punto.getX()*pa.getY();
             
