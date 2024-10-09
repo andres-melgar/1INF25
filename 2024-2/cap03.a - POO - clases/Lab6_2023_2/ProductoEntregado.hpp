@@ -6,6 +6,11 @@ private:
     char *codigo;
     double precio;    
 public:
+    ProductoEntregado();
+    
+    ~ProductoEntregado();
+    
+    void operator=(const ProductoEntregado &productoEntregado);
 };
 
 #endif /* PRODUCTOENTREGADO_HPP */

@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Almacen.o \
 	${OBJECTDIR}/Cliente.o \
+	${OBJECTDIR}/Comunes.o \
 	${OBJECTDIR}/Pedido.o \
 	${OBJECTDIR}/Producto.o \
 	${OBJECTDIR}/ProductoEntregado.o \
@@ -76,6 +77,11 @@ ${OBJECTDIR}/Cliente.o: Cliente.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Cliente.o Cliente.cpp
+
+${OBJECTDIR}/Comunes.o: Comunes.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Comunes.o Comunes.cpp
 
 ${OBJECTDIR}/Pedido.o: Pedido.cpp
 	${MKDIR} -p ${OBJECTDIR}
