@@ -1,23 +1,15 @@
-#include <cstdlib>
 #include "Almacen.hpp"
-#include "AperturaDeArchivos.h"
+
 using namespace std;
 
 void test01();
 
-int main(int argc, char** argv) {
-    test01();
-    //Almacen almacen;
-    return 0;
-}
-
-void test01(){
-    ifstream archivo_de_clientes;
-    AperturaDeUnArchivoDeTextosParaLeer(archivo_de_clientes, "Clientes.csv");
+int main(int argc, char** argv) {    
+    Almacen almacen;
     
-    Cliente cliente;
-    while (archivo_de_clientes >> cliente){
-        
-    }
-    archivo_de_clientes.close();
+    almacen.cargar_clientes();
+    almacen.cargar_productos();
+    almacen.cargar_pedidos();
+    almacen.mostrar_datos();
+    return 0;
 }

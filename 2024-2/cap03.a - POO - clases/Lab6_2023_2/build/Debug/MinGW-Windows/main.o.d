@@ -1,5 +1,5 @@
 build/Debug/MinGW-Windows/main.o: main.cpp Almacen.hpp Cliente.hpp \
- ProductoEntregado.hpp Producto.hpp AperturaDeArchivos.h
+ ProductoEntregado.hpp Pedido.hpp Producto.hpp
 
 Almacen.hpp:
 
@@ -7,6 +7,6 @@ Cliente.hpp:
 
 ProductoEntregado.hpp:
 
-Producto.hpp:
+Pedido.hpp:
 
-AperturaDeArchivos.h:
+Producto.hpp:

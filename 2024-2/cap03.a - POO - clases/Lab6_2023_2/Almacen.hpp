@@ -11,6 +11,17 @@ private:
     Producto arreglo_productos[200];
     int cantidad_productos;
 public:
+    Almacen();
+    
+    void cargar_clientes();
+    
+    void cargar_productos();
+    
+    void cargar_pedidos();
+    
+    void mostrar_datos();
+private:
+    void atender_pedido(Pedido &pedido);
 }; 
 
 #endif /* ALMACEN_HPP */
