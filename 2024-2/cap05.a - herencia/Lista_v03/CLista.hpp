@@ -40,11 +40,11 @@ public:
 
     void destruir();
 
-    bool estaVacia();
+    virtual bool estaVacia();
     
     double getElementoPorIndice(int indice);
 
-    int getLongitud() const;    
+    virtual int getLongitud() const;    
     
     friend ostream & operator<<(ostream &out, CLista &lista);
 
