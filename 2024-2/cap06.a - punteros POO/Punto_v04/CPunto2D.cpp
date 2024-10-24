@@ -1,8 +1,3 @@
-/* 
- * Archivo: CPunto2D.cpp
- * Autor: Andrés Melgar
- * Fecha: 25 de septiembre de 2024, 20:46
- */
 #include <iostream>
 #include <cmath>
 #include "CPunto2D.hpp"

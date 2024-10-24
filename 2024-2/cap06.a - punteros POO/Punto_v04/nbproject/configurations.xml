@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>CPunto2D.hpp</itemPath>
+      <itemPath>CPunto3D.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -14,6 +15,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>CPunto2D.cpp</itemPath>
+      <itemPath>CPunto3D.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -45,6 +47,10 @@
       </item>
       <item path="CPunto2D.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="CPunto3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CPunto3D.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -72,6 +78,10 @@
       <item path="CPunto2D.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="CPunto2D.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CPunto3D.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CPunto3D.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
