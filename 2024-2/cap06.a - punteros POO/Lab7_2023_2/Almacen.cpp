@@ -20,14 +20,6 @@ void Almacen::cargar_pedido() {
     AperturaDeUnArchivoDeTextosParaLeer(archivo_de_pedidos, "Pedidos.csv");
 
     char tipo_buffer;
-    char codigo_pedido_buffer[8];
-    int codigo_cliente_buffer;
-    double subtotal_buffer;
-    int fecha_anho_buffer;
-    int fecha_mes_buffer;
-    int fecha_dia_buffer;
-    int entero_buffer;
-
     this->cantidad_ordenes = 0;
     while (true) {
         archivo_de_pedidos.get(tipo_buffer);
@@ -36,37 +28,17 @@ void Almacen::cargar_pedido() {
 
         this->cantidad_ordenes++;
         this->ordenes[this->cantidad_ordenes-1].crearPedido(tipo_buffer);
-        
-        
-        /*archivo_de_pedidos.get();
-        archivo_de_pedidos.getline(codigo_pedido_buffer, 8, ',');
-        archivo_de_pedidos >> codigo_cliente_buffer;
-        archivo_de_pedidos.get();
-        archivo_de_pedidos >> subtotal_buffer;
-        archivo_de_pedidos.get();
-        archivo_de_pedidos >> fecha_anho_buffer;
-        archivo_de_pedidos.get();
-        archivo_de_pedidos >> fecha_mes_buffer;
-        archivo_de_pedidos.get();
-        archivo_de_pedidos >> fecha_dia_buffer;
-        archivo_de_pedidos.get();
-        archivo_de_pedidos >> entero_buffer;
-
-        char buffer[256];
-        archivo_de_pedidos.getline(buffer, 255);
-         */
-        cout << tipo_buffer << " " << codigo_pedido_buffer << endl;
-
+        this->ordenes[this->cantidad_ordenes-1].leerPedido(archivo_de_pedidos);
     }
-
-
     archivo_de_pedidos.close();
 }
 
 void Almacen::actualizar_pedido() {
-
+    for (int i=0; i<this->cantidad_ordenes; i++)
+        this->ordenes[i].actualizarPedido();
 }
 
 void Almacen::imprimir_ordenes_venta() {
-
+    for (int i=0; i<this->cantidad_ordenes; i++)
+        this->ordenes[i].imprimirPedido();
 }

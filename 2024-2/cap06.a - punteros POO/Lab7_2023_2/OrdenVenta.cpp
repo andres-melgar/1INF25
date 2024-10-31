@@ -1,8 +1,12 @@
+#include <iostream>
+#include <fstream>
 #include "OrdenVenta.hpp"
 #include "Pedido.hpp"
 #include "PrioridadAlta.hpp"
 #include "PrioridadMedia.hpp"
 #include "PrioridadBaja.hpp"
+
+using namespace std;
 
 OrdenVenta::OrdenVenta() {
     this->ptr_orden = nullptr;
@@ -30,4 +34,16 @@ void OrdenVenta::crearPedido(char tipo_de_pedido) {
             break;
     }
     this->ptr_orden = ptrPedidoCreado;
+}
+
+void OrdenVenta::leerPedido(ifstream &archivo_de_pedidos){
+    this->ptr_orden->lee(archivo_de_pedidos);
+}
+
+void OrdenVenta::imprimirPedido(){
+    this->ptr_orden->imprime();
+}
+
+void OrdenVenta::actualizarPedido(){
+    this->ptr_orden->actualiza();
 }

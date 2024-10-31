@@ -1,7 +1,11 @@
 #ifndef PRIORIDADMEDIA_HPP
 #define PRIORIDADMEDIA_HPP
 
+#include <iostream>
+#include <fstream>
 #include "Pedido.hpp"
+
+using namespace std;
 
 class PrioridadMedia : public Pedido {
 private:
@@ -13,6 +17,12 @@ public:
     PrioridadMedia(const PrioridadMedia& orig);
 
     virtual ~PrioridadMedia();
+    
+    void  lee(ifstream &archivo_de_pedidos) override;
+    
+    void imprime() override;
+    
+    void actualiza() override;
 private:
 
 };
