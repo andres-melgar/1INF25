@@ -1,12 +1,18 @@
-package pe.edu.pucp.inf25.sesiones.publicaciones_v01;
+package pe.edu.pucp.inf25.sesiones.publicaciones_v02;
 
 public class Publicacion {
 
-    private String nombre;
-    private String autores[];
-    private Integer cantidad_autores;
-    private Integer año;
+    protected String nombre;
+    protected String autores[];
+    protected Integer cantidad_autores;
+    protected Integer año;
 
+// Solo se implementó para probar el problema de los constructores
+// en la herencia    
+//    public Publicacion(){
+//        
+//    }
+    
     public Publicacion(String nombre, String autor, Integer año) {
         this.nombre = nombre;
         this.autores = new String[1];
