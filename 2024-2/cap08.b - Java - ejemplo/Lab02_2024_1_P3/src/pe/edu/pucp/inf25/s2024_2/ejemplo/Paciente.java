@@ -7,8 +7,10 @@ public class Paciente extends Persona {
     private Integer HCE;
     private ArrayList<AtencionMedica> atencionesMedica; //contenedor que AtencionMedica
     
-    public Paciente(){
-        this.atencionesMedica = new ArrayList<>();
+    public Paciente(String DNI, String nombre, String paterno, String materno, Integer HCE){
+        super(DNI, nombre, paterno, materno);
+        this.HCE = HCE;
+        this.atencionesMedica = new ArrayList<>();        
     }
 
     /**

@@ -7,6 +7,13 @@ public class Persona {
     private String materno;
     private String nombre;
 
+    public Persona(String DNI, String nombre, String paterno, String materno){
+        this.DNI = DNI;
+        this.paterno = paterno;
+        this.materno = materno;
+        this.nombre = nombre;
+    }
+    
     /**
      * @return the DNI
      */

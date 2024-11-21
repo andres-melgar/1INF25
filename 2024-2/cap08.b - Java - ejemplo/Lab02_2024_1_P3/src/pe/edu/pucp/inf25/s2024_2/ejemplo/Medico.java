@@ -5,6 +5,13 @@ public class Medico extends Persona {
     private String CMP;
     private Especialidad especialidad; //agregación
     private String numero_registro;
+    
+    public Medico(String DNI, String nombre, String paterno, String materno, Especialidad especialidad, String CMP, String numero_registro){
+        super(DNI, nombre, paterno, materno);
+        this.CMP = CMP;
+        this.especialidad = especialidad;
+        this.numero_registro = numero_registro;
+    }
 
     /**
      * @return the CMP
