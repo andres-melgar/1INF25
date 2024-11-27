@@ -4,6 +4,19 @@ public class Consultorio extends AmbienteClinico {
 
     private String numero;
 
+    public Consultorio(Double metraje, char torre, Integer piso, String numero) {
+        super(metraje, torre, piso);
+        this.numero = numero;
+    }
+    
+    @Override
+    public String toString(){
+        String resultado = "CONSULTORIO: ";
+        resultado = resultado.concat(this.getNumero());
+        resultado = resultado.concat(super.toString());
+        return resultado;
+    }
+
     /**
      * @return the numero
      */

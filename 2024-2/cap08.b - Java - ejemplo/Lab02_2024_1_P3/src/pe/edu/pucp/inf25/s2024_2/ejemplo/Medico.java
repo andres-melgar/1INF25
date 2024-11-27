@@ -12,7 +12,18 @@ public class Medico extends Persona {
         this.especialidad = especialidad;
         this.numero_registro = numero_registro;
     }
-
+    
+    @Override
+    public String toString() {
+        String resultado = "MEDICO: ";
+        resultado = resultado.concat(super.toString());        
+        resultado = resultado.concat(" - CMP: ");
+        resultado = resultado.concat(this.getNumero_registro());
+        resultado = resultado.concat(" - ");
+        resultado = resultado.concat(this.getEspecialidad().toString());
+        return resultado;
+    }
+    
     /**
      * @return the CMP
      */

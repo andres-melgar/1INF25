@@ -1,10 +1,18 @@
 package pe.edu.pucp.inf25.s2024_2.ejemplo;
 
+import java.util.Date;
+
 public class ExamenDiagnostico extends AtencionMedica {
 
     private SalaEspecializada salaEspecializada;
     private TipoExamen tipo_de_examen;
 
+    public ExamenDiagnostico(Paciente paciente, Medico medico, Date fecha_atencion, SalaEspecializada salaEspecializada, TipoExamen tipo_de_examen){ 
+        super(paciente, medico, fecha_atencion);
+        this.salaEspecializada = salaEspecializada;
+        this.tipo_de_examen = tipo_de_examen;
+    }
+    
     /**
      * @return the salaEspecializada
      */

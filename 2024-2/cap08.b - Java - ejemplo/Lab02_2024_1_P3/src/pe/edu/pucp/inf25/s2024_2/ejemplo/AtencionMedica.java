@@ -2,7 +2,7 @@ package pe.edu.pucp.inf25.s2024_2.ejemplo;
 
 import java.util.Date;
 
-public class AtencionMedica {
+public abstract class AtencionMedica {
 
     private static int correlativo = 1;
     private Integer identificador;
@@ -12,6 +12,15 @@ public class AtencionMedica {
     private Date fecha_atencion;
     private Estado_de_atencion estado;
 
+    public AtencionMedica(Paciente paciente, Medico medico, Date fecha_atencion){
+        this.identificador = AtencionMedica.correlativo++;
+        this.paciente = paciente;
+        this.medico = medico;
+        this.fecha_creacion = new Date();
+        this.fecha_atencion = fecha_atencion;
+        this.estado = Estado_de_atencion.PROGRAMADA;
+    }
+    
     /**
      * @return the correlativo
      */

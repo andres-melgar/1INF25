@@ -1,9 +1,17 @@
 package pe.edu.pucp.inf25.s2024_2.ejemplo;
 
+import java.util.Date;
+
 public class Teleconsulta extends CitaMedica {
 
     private Plataforma plataforma;
     private String enlace;
+    
+    public Teleconsulta(Paciente paciente, Medico medico, Date fecha_atencion, String motivo, Plataforma plataforma, String enlace){
+      super(paciente, medico, fecha_atencion, motivo);
+      this.plataforma = plataforma;
+      this.enlace = enlace;
+    }
 
     /**
      * @return the plataforma

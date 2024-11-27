@@ -5,6 +5,25 @@ public class SalaEspecializada extends AmbienteClinico {
     private String nombre;
     private Boolean posee_equipamiento_imagenologia;
 
+    public SalaEspecializada(Double metraje, char torre, Integer piso, String nombre, Boolean posee_equipamiento_imagenologia) {
+        super(metraje, torre, piso);
+        this.nombre = nombre;
+        this.posee_equipamiento_imagenologia = posee_equipamiento_imagenologia;
+    }
+
+    @Override
+    public String toString() {
+        String resultado = "SALA ESPECIALIZADA: ";
+        resultado = resultado.concat(this.getNombre());
+        resultado = resultado.concat(super.toString());
+        resultado = resultado.concat(" - EQ. IMAGENOLOGIA: ");
+        if (this.getPosee_equipamiento_imagenologia())
+            resultado = resultado.concat("SI");
+        else
+            resultado = resultado.concat("NO");
+        return resultado;
+    }
+
     /**
      * @return the nombre
      */

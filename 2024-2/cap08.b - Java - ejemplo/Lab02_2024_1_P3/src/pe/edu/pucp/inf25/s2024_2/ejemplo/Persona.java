@@ -7,13 +7,30 @@ public class Persona {
     private String materno;
     private String nombre;
 
-    public Persona(String DNI, String nombre, String paterno, String materno){
+    public Persona(String DNI, String nombre, String paterno, String materno) {
         this.DNI = DNI;
         this.paterno = paterno;
         this.materno = materno;
         this.nombre = nombre;
     }
-    
+
+    @Override
+    public String toString() {
+        String resultado = this.getNombre();
+        resultado = resultado.concat(" ");
+        resultado = resultado.concat(this.getPaterno());
+        resultado = resultado.concat(" ");
+        resultado = resultado.concat(this.getMaterno());
+
+//        String resultado = this.getPaterno();
+//        resultado = resultado.concat(" ");
+//        resultado = resultado.concat(this.getMaterno());
+//        resultado = resultado.concat(", ");
+//        resultado = resultado.concat(this.getNombre());
+
+        return resultado;
+    }
+
     /**
      * @return the DNI
      */

@@ -1,9 +1,17 @@
 package pe.edu.pucp.inf25.s2024_2.ejemplo;
 
+import java.util.Date;
+
 public class ConsultaPresencial extends CitaMedica {
 
     private Consultorio consultorio;
     private Boolean requiere_asistencia;
+
+    ConsultaPresencial(Paciente paciente, Medico medico, Date fecha_atencion, String motivo, Consultorio consultorio, boolean requiere_asistencia) {
+        super(paciente, medico, fecha_atencion, motivo);
+        this.consultorio = consultorio;
+        this.requiere_asistencia = requiere_asistencia;
+    }
 
     /**
      * @return the consultorio

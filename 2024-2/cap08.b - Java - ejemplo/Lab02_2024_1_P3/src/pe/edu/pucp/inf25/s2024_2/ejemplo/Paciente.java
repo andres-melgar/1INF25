@@ -6,11 +6,20 @@ public class Paciente extends Persona {
 
     private Integer HCE;
     private ArrayList<AtencionMedica> atencionesMedica; //contenedor que AtencionMedica
-    
-    public Paciente(String DNI, String nombre, String paterno, String materno, Integer HCE){
+
+    public Paciente(String DNI, String nombre, String paterno, String materno, Integer HCE) {
         super(DNI, nombre, paterno, materno);
         this.HCE = HCE;
-        this.atencionesMedica = new ArrayList<>();        
+        this.atencionesMedica = new ArrayList<>();
+    }
+
+    @Override
+    public String toString() {
+        String resultado = "PACIENTE: ";
+        resultado = resultado.concat(this.getDNI());
+        resultado = resultado.concat(" - ");
+        resultado = resultado.concat(super.toString());        
+        return resultado;
     }
 
     /**
@@ -30,7 +39,7 @@ public class Paciente extends Persona {
     public AtencionMedica getAtencionMedica(Integer index) {
         return this.atencionesMedica.get(index);
     }
-    
+
     public void addAtencionMedica(AtencionMedica atencionMedica) {
         this.atencionesMedica.add(atencionMedica);
     }
