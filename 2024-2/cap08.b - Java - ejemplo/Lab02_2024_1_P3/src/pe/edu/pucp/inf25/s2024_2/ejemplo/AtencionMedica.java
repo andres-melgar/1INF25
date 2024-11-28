@@ -10,7 +10,7 @@ public abstract class AtencionMedica {
     private Medico medico; //agregación
     private Date fecha_creacion;
     private Date fecha_atencion;
-    private Estado_de_atencion estado;
+    private Estado_de_atencion estado;    
 
     public AtencionMedica(Paciente paciente, Medico medico, Date fecha_atencion){
         this.identificador = AtencionMedica.correlativo++;

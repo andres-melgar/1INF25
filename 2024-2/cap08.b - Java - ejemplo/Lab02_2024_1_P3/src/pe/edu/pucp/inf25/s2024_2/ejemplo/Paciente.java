@@ -43,4 +43,12 @@ public class Paciente extends Persona {
     public void addAtencionMedica(AtencionMedica atencionMedica) {
         this.atencionesMedica.add(atencionMedica);
     }
+
+    public void listarCitasProgramadas() {
+        for(AtencionMedica atencion_medica: this.atencionesMedica){
+            //if (!(atencion_medica instanceof ExamenDiagnostico))
+            if (atencion_medica instanceof CitaMedica)
+                System.out.println(atencion_medica.toString());
+        }
+    }
 }
