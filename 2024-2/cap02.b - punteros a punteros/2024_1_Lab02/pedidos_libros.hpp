@@ -1,5 +1,0 @@
-#ifndef PEDIDOS_LIBROS_HPP
-#define PEDIDOS_LIBROS_HPP
-
-#endif /* PEDIDOS_LIBROS_HPP */
-
