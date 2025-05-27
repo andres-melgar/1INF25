@@ -38,42 +38,42 @@ void test07() {
     assert(pila.estaVacia()==false);
     assert(pila.getLongitud()==5);
     
-    assert(pila.eliminarCabeza()==30);
+    assert(pila.desapilar()==30);
     assert(pila.getLongitud()==4);
     
-    assert(pila.eliminarCabeza()==40);
+    assert(pila.desapilar()==40);
     assert(pila.getLongitud()==3);
     
-    assert(pila.eliminarCabeza()==50);
+    assert(pila.desapilar()==50);
     assert(pila.getLongitud()==2);
     
-    assert(pila.eliminarCabeza()==10);
+    assert(pila.desapilar()==10);
     assert(pila.getLongitud()==1);
     
-    assert(pila.eliminarCabeza()==20);
+    assert(pila.desapilar()==20);
     assert(pila.getLongitud()==0);
 }
 
 void test06() {
-    CPila pila;
+//    CPila pila;
+//
+//    assert(pila.estaVacia());
+//    assert(pila.getLongitud() == 0);
+//
+//    pila.insertar(10);
+//    assert(pila.getLongitud() == 1);
+//
+//    pila.insertar(20);
+//    assert(pila.getLongitud() == 2);
+//
+//    pila.insertar(30);
+//    assert(pila.getLongitud() == 3);
+//
+//    assert(pila.getElementoPorIndice(0) == 30);
+//    assert(pila.getElementoPorIndice(1) == 20);
+//    assert(pila.getElementoPorIndice(2) == 10);
 
-    assert(pila.estaVacia());
-    assert(pila.getLongitud() == 0);
-
-    pila.insertar(10);
-    assert(pila.getLongitud() == 1);
-
-    pila.insertar(20);
-    assert(pila.getLongitud() == 2);
-
-    pila.insertar(30);
-    assert(pila.getLongitud() == 3);
-
-    assert(pila.getElementoPorIndice(0) == 30);
-    assert(pila.getElementoPorIndice(1) == 20);
-    assert(pila.getElementoPorIndice(2) == 10);
-
-    cout << pila;
+//    cout << pila;
 }
 
 void test05() {

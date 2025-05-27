@@ -29,6 +29,14 @@ double CPila::desapilar(){
     return this->eliminarCabeza();
 }
 
-bool CPila::esta_pila_vacia(){
-    return this->estaVacia();
+bool CPila::estaVacia(){
+    return CLista::estaVacia();
+}
+
+int CPila::getLongitud() const{
+    return CLista::getLongitud();
+}
+
+ostream & operator<<(ostream &out, CPila &pila){
+    return pila.imprimir(out);
 }
