@@ -2,14 +2,14 @@
 #define CPUNTO2D_HPP
 
 class CPunto2D{
-private:
+protected:
     int x;
     int y;
 
 public:    
     CPunto2D(int x = 0, int y = 0);
     
-    void imprimir();
+    virtual void imprimir();
     
     double distancia(const CPunto2D &punto);
     

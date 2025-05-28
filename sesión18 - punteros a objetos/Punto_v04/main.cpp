@@ -2,6 +2,7 @@
 #include <cmath>
 #include <assert.h>
 #include "CPunto2D.hpp"
+#include "CPunto3D.hpp"
 #include "CPoligono.hpp"
 
 using namespace std;
@@ -12,127 +13,62 @@ void test03();
 void test04();
 void test05();
 void test06();
-void test07();
-void test08();
 
 int main(int argc, char** argv) {
-    //    test01();
-    //    test02();
-    //    test03();
-    //    test04();
-    //    test05();
-    //    test06();
-    test07();
-    test08();
+    test01();
+    test02();
+    test03();
+    test04();
+    test05();
+    test06();
     return 0;
 }
 
-void test08() {
-    CPoligono poligono;
-    assert(poligono.getCantidad_vertices() == 0);
-    poligono.agregarVertice(3,4);
-    assert(poligono.getCantidad_vertices() == 1);
-    poligono.agregarVertice(5,11);
-    assert(poligono.getCantidad_vertices() == 2);
-    poligono.agregarVertice(12,8);
-    assert(poligono.getCantidad_vertices() == 3);
-    poligono.agregarVertice(9,5);
-    assert(poligono.getCantidad_vertices() == 4);
-    poligono.agregarVertice(5,6);
-    assert(poligono.getCantidad_vertices() == 5);
-    assert(poligono.calcular_area()==30);
-}
-
-void test07() {
-    CPoligono poligono;
-    assert(poligono.getCantidad_vertices() == 0);
-    poligono.agregarVertice(3,4);
-    assert(poligono.getCantidad_vertices() == 1);
-    poligono.agregarVertice(5,11);
-    assert(poligono.getCantidad_vertices() == 2);
-    poligono.agregarVertice(12,8);
-    assert(poligono.getCantidad_vertices() == 3);
-    poligono.agregarVertice(9,5);
-    assert(poligono.getCantidad_vertices() == 4);
-    poligono.agregarVertice(5,6);
-    assert(poligono.getCantidad_vertices() == 5);
-}
-
 void test06() {
-    CPunto2D p1, p2;
-    assert(p1.getX() == 0);
-    assert(p1.getY() == 0);
-    assert(p2.getX() == 0);
-    assert(p2.getY() == 0);
-
-    p1 = CPunto2D(2, 1);
-    p2 = CPunto2D(-3, 2);
-
-    assert(p1.getX() == 2);
-    assert(p1.getY() == 1);
-    assert(p2.getX() == -3);
-    assert(p2.getY() == 2);
+    cout << "test06" << endl;
+    CPunto2D * punto[5];
+    punto[0] = new CPunto2D(3, 4);
+    punto[1] = new CPunto3D(1, 2, 3);
+    punto[2] = new CPunto2D(7, 8);
+    punto[3] = new CPunto3D(5, 4, 9);
+    punto[4] = new CPunto2D(4, 5);
+    
+    for(int i=0; i<5; i++)
+        punto[i]->imprimir();
 }
 
 void test05() {
-    CPunto2D p1(2, 1), p2(-3, 2);
-    assert(p1.getX() == 2);
-    assert(p1.getY() == 1);
-    assert(p2.getX() == -3);
-    assert(p2.getY() == 2);
+    cout << "test05" << endl;
+    CPunto2D *punto;
+    punto = new CPunto3D(10, 20, 30);
+    punto->imprimir();
 }
 
 void test04() {
-    CPunto2D p;
-    assert(p.getX() == 0);
-    assert(p.getY() == 0);
+    cout << "test04" << endl;
+    CPunto2D *punto;
+    punto = new CPunto2D(10, 20);
+    punto->imprimir();
 }
 
 void test03() {
-    CPunto2D p1, p2;
-
-    p1.setX(2);
-    p1.setY(1);
-    p2.setX(-3);
-    p2.setY(2);
-    assert(p1.distancia(p2) == sqrt(26));
-
-    p1.setX(1);
-    p1.setY(7);
-    p2.setX(1);
-    p2.setY(2);
-    assert(p1.distancia(p2) == 5);
+    cout << "test03" << endl;
+    CPunto2D punto2D;
+    CPunto3D punto3D(10, 20, 30);
+    punto2D = punto3D;
+    punto2D.imprimir();
 }
 
 void test02() {
-    CPunto2D p1, p2;
-
-    p1.setX(15);
-    p1.setY(35);
-    assert(p1.getX() == 15);
-    assert(p1.getY() == 35);
-
-    p2.setX(10);
-    p2.setY(50);
-    assert(p2.getX() == 10);
-    assert(p2.getY() == 50);
-
-    p1.imprimir();
-    p2.imprimir();
+    cout << "test02" << endl;
+    CPunto3D punto(10, 20, 30);
+    punto.imprimir();
 }
 
 void test01() {
-    CPunto2D p1;
-
-    //El siguiente código romple el encapsulamiento
-    //no se puede utilizar.
-    //p1.x = 10;
-    //p1.y = 20;
-    p1.setX(10);
-    p1.setY(20);
-
-    assert(p1.getX() == 10);
-    assert(p1.getY() == 20);
+    cout << "test01" << endl;
+    CPunto2D punto(10, 20);
+    punto.imprimir();
 }
 
 

@@ -4,9 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>CPoligono.hpp</itemPath>
-      <itemPath>CPunto2D.hpp</itemPath>
-      <itemPath>CPunto3D.hpp</itemPath>
+      <itemPath>Base.hpp</itemPath>
+      <itemPath>Heredada.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -15,9 +14,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>CPoligono.cpp</itemPath>
-      <itemPath>CPunto2D.cpp</itemPath>
-      <itemPath>CPunto3D.cpp</itemPath>
+      <itemPath>Base.cpp</itemPath>
+      <itemPath>Heredada.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -45,17 +43,13 @@
           <standard>8</standard>
         </ccTool>
       </compileType>
-      <item path="CPoligono.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Base.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="CPoligono.hpp" ex="false" tool="3" flavor2="0">
+      <item path="Base.hpp" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="CPunto2D.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Heredada.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="CPunto2D.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="CPunto3D.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="CPunto3D.hpp" ex="false" tool="3" flavor2="0">
+      <item path="Heredada.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -81,17 +75,13 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="CPoligono.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Base.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="CPoligono.hpp" ex="false" tool="3" flavor2="0">
+      <item path="Base.hpp" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="CPunto2D.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Heredada.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="CPunto2D.hpp" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="CPunto3D.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="CPunto3D.hpp" ex="false" tool="3" flavor2="0">
+      <item path="Heredada.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
