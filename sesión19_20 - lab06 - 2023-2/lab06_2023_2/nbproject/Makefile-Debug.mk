@@ -58,11 +58,13 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=-L. lib_apertura_archivos_windows.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
 	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/lab06_2023_2.exe
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/lab06_2023_2.exe: lib_apertura_archivos_windows.a
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/lab06_2023_2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}

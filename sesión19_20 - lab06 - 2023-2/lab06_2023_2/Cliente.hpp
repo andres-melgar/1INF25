@@ -2,6 +2,7 @@
 #define CLIENTE_HPP
 #include <fstream>
 #include "ProductoEntregado.hpp"
+#include "Pedido.hpp"
 #define MAX_PRODUCTOS_ENTREGADOS 200
 #define DNI_VACIO -1
 #define TELEFONO_VACIO -1
@@ -27,8 +28,12 @@ public:
     
     void operator=(const Cliente &cliente);
     
+    void operator+=(const Pedido &pedido);
+    
     //OJO: operator>> no es un método, es una función
     friend bool operator>>(istream &archivo_de_clientes, Cliente &cliente);
+    
+    friend ostream & operator<<(ostream &out, const Cliente &cliente);
     
     void setMonto_total(double monto_total);
     

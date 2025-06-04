@@ -5,6 +5,7 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Almacen.hpp</itemPath>
+      <itemPath>AperturaDeArchivos.h</itemPath>
       <itemPath>Cliente.hpp</itemPath>
       <itemPath>Comunes.hpp</itemPath>
       <itemPath>Pedido.hpp</itemPath>
@@ -50,10 +51,20 @@
         <ccTool>
           <standard>8</standard>
         </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>lib_apertura_archivos_windows.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="Almacen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Almacen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Cliente.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -102,6 +113,8 @@
       <item path="Almacen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Almacen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AperturaDeArchivos.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Cliente.cpp" ex="false" tool="1" flavor2="0">
       </item>

@@ -1,5 +1,8 @@
+#include <fstream>
 #include "ProductoEntregado.hpp"
 #include "Comunes.hpp"
+
+using namespace std;
 
 ProductoEntregado::ProductoEntregado() {
     this->codigo = nullptr;
@@ -36,4 +39,9 @@ void ProductoEntregado::SetCodigo(char* codigo) {
 
 char* ProductoEntregado::GetCodigo() const {
     return mi_strdup(this->codigo);
+}
+
+ostream & operator<<(ostream &out, const ProductoEntregado &productoEntregado){
+    out << productoEntregado.codigo;
+    return out;
 }

@@ -1,5 +1,9 @@
 #ifndef PRODUCTO_HPP
 #define PRODUCTO_HPP
+#include <fstream>
+#include "Pedido.hpp"
+
+using namespace std;
 
 class Producto{
 private:
@@ -21,6 +25,12 @@ public:
     ~Producto();
     
     void operator=(const Producto &producto);
+    
+    bool operator+=(Pedido &pedido);
+    
+    friend bool operator>>(ifstream &archivo_de_producto, Producto &producto);
+    
+    friend ostream & operator<<(ostream & out, const Producto &producto);
     
     void setStock(int stock);
     

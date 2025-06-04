@@ -1,5 +1,8 @@
 #ifndef PRODUCTOENTREGADO_HPP
 #define PRODUCTOENTREGADO_HPP
+#include <fstream>
+
+using namespace std;
 
 class ProductoEntregado{
 private:
@@ -21,6 +24,8 @@ public:
     void SetCodigo(char* codigo);
     
     char* GetCodigo() const;
+    
+    friend ostream & operator<<(ostream &out, const ProductoEntregado &productoEntregado);
 };
 
 #endif /* PRODUCTOENTREGADO_HPP */

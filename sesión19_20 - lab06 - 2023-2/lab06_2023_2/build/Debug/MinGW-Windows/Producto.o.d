@@ -1,6 +1,8 @@
 build/Debug/MinGW-Windows/Producto.o: Producto.cpp Producto.hpp \
- Comunes.hpp
+ Pedido.hpp Comunes.hpp
 
 Producto.hpp:
+
+Pedido.hpp:
 
 Comunes.hpp:
