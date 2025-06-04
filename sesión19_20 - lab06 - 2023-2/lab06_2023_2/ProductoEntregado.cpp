@@ -20,3 +20,20 @@ void ProductoEntregado::operator=(const ProductoEntregado &productoEntregado){
     this->codigo = mi_strdup(productoEntregado.codigo);
     this->precio = productoEntregado.precio;
 }
+
+void ProductoEntregado::SetPrecio(double precio) {
+    this->precio = precio;
+}
+
+double ProductoEntregado::GetPrecio() const {
+    return precio;
+}
+
+void ProductoEntregado::SetCodigo(char* codigo) {
+    libera_cadena(this->codigo);
+    this->codigo = mi_strdup(this->codigo);
+}
+
+char* ProductoEntregado::GetCodigo() const {
+    return mi_strdup(this->codigo);
+}

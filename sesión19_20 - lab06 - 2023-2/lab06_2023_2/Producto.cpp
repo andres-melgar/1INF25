@@ -32,6 +32,40 @@ void Producto::operator=(const Producto &producto) {
     this->copia_producto(producto);
 }
 
+void Producto::setStock(int stock) {
+    this->stock = stock;
+}
+
+int Producto::getStock() const {
+    return stock;
+}
+
+void Producto::setPrecio(double precio) {
+    this->precio = precio;
+}
+
+double Producto::getPrecio() const {
+    return precio;
+}
+
+void Producto::setDescripcion(char* descripcion) {
+    libera_cadena(this->descripcion);
+    this->descripcion = mi_strdup(descripcion);
+}
+
+char* Producto::getDescripcion() const {
+    return mi_strdup(descripcion);
+}
+
+void Producto::setCodigo(char* codigo) {
+    libera_cadena(this->codigo);
+    this->codigo = mi_strdup(codigo);
+}
+
+char* Producto::getCodigo() const {
+    return mi_strdup(this->codigo);
+}
+
 void Producto::liberar_producto(){
     libera_cadena(this->codigo);
     libera_cadena(this->descripcion);

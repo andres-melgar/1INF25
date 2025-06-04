@@ -22,6 +22,22 @@ public:
     
     void operator=(const Producto &producto);
     
+    void setStock(int stock);
+    
+    int getStock() const;
+    
+    void setPrecio(double precio);
+    
+    double getPrecio() const;
+    
+    void setDescripcion(char* descripcion);
+    
+    char* getDescripcion() const;
+    
+    void setCodigo(char* codigo);
+    
+    char* getCodigo() const;
+    
 private:
     void copia_producto(const Producto &producto);
     

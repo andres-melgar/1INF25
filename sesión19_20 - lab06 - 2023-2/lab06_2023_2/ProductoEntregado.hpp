@@ -13,6 +13,14 @@ public:
     ~ProductoEntregado();
     
     void operator=(const ProductoEntregado &productoEntregado);
+    
+    void SetPrecio(double precio);
+    
+    double GetPrecio() const;
+    
+    void SetCodigo(char* codigo);
+    
+    char* GetCodigo() const;
 };
 
 #endif /* PRODUCTOENTREGADO_HPP */

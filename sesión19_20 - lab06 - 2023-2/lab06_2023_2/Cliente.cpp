@@ -1,5 +1,8 @@
+#include <fstream>
 #include "Cliente.hpp"
 #include "Comunes.hpp"
+
+using namespace std;
 
 Cliente::Cliente() {
     this->dni = DNI_VACIO;
@@ -30,6 +33,39 @@ void Cliente::operator=(const Cliente &cliente) {
     this->copia_cliente(cliente);
 }
 
+void Cliente::setMonto_total(double monto_total) {
+    this->monto_total = monto_total;
+}
+
+double Cliente::getMonto_total() const {
+    return monto_total;
+}
+
+void Cliente::setTelefono(int telefono) {
+    this->telefono = telefono;
+}
+
+int Cliente::getTelefono() const {
+    return telefono;
+}
+
+void Cliente::setNombre(char* nombre) {
+    libera_cadena(this->nombre);
+    this->nombre = mi_strdup(nombre);
+}
+
+char* Cliente::getNombre() const {
+    return mi_strdup(this->nombre);
+}
+
+void Cliente::setDni(int dni) {
+    this->dni = dni;
+}
+
+int Cliente::getDni() const {
+    return dni;
+}
+
 void Cliente::copia_cliente(const Cliente &cliente){
     this->dni = cliente.dni;
     this->nombre = mi_strdup(cliente.nombre);
@@ -48,4 +84,8 @@ void Cliente::copia_cliente(const Cliente &cliente){
 
 void Cliente::libera_cliente(){
     libera_cadena(this->nombre);
+}
+
+bool operator>>(istream &archivo_de_clientes, Cliente &cliente){
+    
 }
