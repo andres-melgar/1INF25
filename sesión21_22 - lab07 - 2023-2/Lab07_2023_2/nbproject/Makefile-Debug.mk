@@ -36,6 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Almacen.o \
+	${OBJECTDIR}/Comunes.o \
 	${OBJECTDIR}/OrdenVenta.o \
 	${OBJECTDIR}/Pedido.o \
 	${OBJECTDIR}/PrioridadAlta.o \
@@ -58,11 +59,13 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=-L. lib_apertura_archivos_windows.a
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
 	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/lab07_2023_2.exe
+
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/lab07_2023_2.exe: lib_apertura_archivos_windows.a
 
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/lab07_2023_2.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
@@ -72,6 +75,11 @@ ${OBJECTDIR}/Almacen.o: Almacen.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Almacen.o Almacen.cpp
+
+${OBJECTDIR}/Comunes.o: Comunes.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Comunes.o Comunes.cpp
 
 ${OBJECTDIR}/OrdenVenta.o: OrdenVenta.cpp
 	${MKDIR} -p ${OBJECTDIR}

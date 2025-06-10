@@ -5,11 +5,13 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>Almacen.hpp</itemPath>
+      <itemPath>Comunes.hpp</itemPath>
       <itemPath>OrdenVenta.hpp</itemPath>
       <itemPath>Pedido.hpp</itemPath>
       <itemPath>PrioridadAlta.hpp</itemPath>
       <itemPath>PrioridadBaja.hpp</itemPath>
       <itemPath>PrioridadMedia.hpp</itemPath>
+      <itemPath>lib_apertura_archivos_windows.a</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -19,6 +21,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>Almacen.cpp</itemPath>
+      <itemPath>Comunes.cpp</itemPath>
       <itemPath>OrdenVenta.cpp</itemPath>
       <itemPath>Pedido.cpp</itemPath>
       <itemPath>PrioridadAlta.cpp</itemPath>
@@ -50,10 +53,22 @@
         <ccTool>
           <standard>8</standard>
         </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>lib_apertura_archivos_windows.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="Almacen.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Almacen.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Comunes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Comunes.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="OrdenVenta.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -74,6 +89,8 @@
       <item path="PrioridadMedia.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="PrioridadMedia.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib_apertura_archivos_windows.a" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -103,6 +120,10 @@
       </item>
       <item path="Almacen.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="Comunes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Comunes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="OrdenVenta.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="OrdenVenta.hpp" ex="false" tool="3" flavor2="0">
@@ -122,6 +143,8 @@
       <item path="PrioridadMedia.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="PrioridadMedia.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lib_apertura_archivos_windows.a" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
