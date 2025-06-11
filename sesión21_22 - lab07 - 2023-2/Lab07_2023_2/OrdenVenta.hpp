@@ -19,6 +19,10 @@ public:
     void crearPedido(char tipo_de_pedido);
     
     void leerPedido(ifstream &archivo_de_pedido);
+    
+    void imprimirPedido();
+    
+    void actualizarPedido();
 };
 
 #endif /* ORDENVENTA_HPP */

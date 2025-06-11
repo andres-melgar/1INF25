@@ -28,9 +28,11 @@ void Almacen::cargar_pedidos() {
 }
 
 void Almacen::actualizar_pedidos() {
-
+    for(int i=0; i<this->cantidad_ordenes; i++)
+        this->ordenes[i].actualizarPedido();
 }
 
 void Almacen::imprimir_ordenes_venta() {
-
+    for(int i=0; i<this->cantidad_ordenes; i++)
+        this->ordenes[i].imprimirPedido();
 }

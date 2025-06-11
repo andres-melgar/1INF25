@@ -10,6 +10,10 @@ public:
     PrioridadBaja();
     
     void lee(ifstream &archivo_de_pedido) override;
+    
+    void imprime() override;
+    
+    void actualiza() override;
 };
 
 #endif /* PRIORIDADBAJA_HPP */

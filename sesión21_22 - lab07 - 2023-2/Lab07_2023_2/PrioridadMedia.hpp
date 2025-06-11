@@ -12,6 +12,10 @@ public:
     ~PrioridadMedia();
     
     void lee(ifstream &archivo_de_pedido) override;
+    
+    void imprime() override;
+    
+    void actualiza() override;
 };
 
 #endif /* PRIORIDADMEDIA_HPP */

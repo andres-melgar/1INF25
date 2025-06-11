@@ -7,7 +7,7 @@
 using namespace std;
 
 class Pedido{
-private:
+protected:
     char *codigo;
     int dni_cliente;
     double subtotal;
@@ -20,6 +20,10 @@ public:
     virtual ~Pedido();
     
     virtual void lee(ifstream &archivo_de_pedido);
+    
+    virtual void imprime();
+    
+    virtual void actualiza();
 };
 
 #endif /* PEDIDO_HPP */

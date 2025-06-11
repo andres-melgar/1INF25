@@ -43,3 +43,21 @@ void OrdenVenta::crearPedido(char tipo_de_pedido){
 void OrdenVenta::leerPedido(ifstream &archivo_de_pedido){
     this->ptr_orden->lee(archivo_de_pedido);
 }
+
+//en ese método ocurre el polimorfismo
+//dependiendo de la referencia se invoca a 
+//  o imprime de Prioridad Alta 
+//  o imprime de Prioridad Media
+//  o imprime de Prioridad Baja
+void OrdenVenta::imprimirPedido(){
+    this->ptr_orden->imprime();
+}
+
+//en ese método ocurre el polimorfismo
+//dependiendo de la referencia se invoca a 
+//  o actualiza de Prioridad Alta 
+//  o actualiza de Prioridad Media
+//  o actualiza de Prioridad Baja
+void OrdenVenta::actualizarPedido(){
+    this->ptr_orden->actualiza();
+}

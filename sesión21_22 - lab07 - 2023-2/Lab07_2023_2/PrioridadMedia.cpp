@@ -1,5 +1,8 @@
+#include <iostream>
 #include "PrioridadMedia.hpp"
 #include "Comunes.hpp"
+
+using namespace std;
 
 PrioridadMedia::PrioridadMedia() {
     this->descripcion = nullptr;
@@ -25,4 +28,15 @@ void PrioridadMedia::lee(ifstream &archivo_de_pedido){
     else
         this->descripcion = mi_strdup("Activo");
     this->nueva_fecha_entrega = 0;    
+}
+
+void PrioridadMedia::imprime(){
+    cout<<"PRIORIDAD MEDIA: ";
+    Pedido::imprime();
+    cout << " Estado: " << this->descripcion;
+    cout << endl;
+}
+
+void PrioridadMedia::actualiza(){
+    Pedido::actualiza();
 }
