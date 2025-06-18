@@ -8,6 +8,14 @@ private:
     int cantidad_estantes;
 public:
     Biblioteca();
+    
+    void carga();
+    
+    void llena();
+    
+    void baja();
+    
+    void muestra();
 };
 
 #endif /* BIBLIOTECA_HPP */

@@ -56,6 +56,14 @@
         <ccTool>
           <standard>8</standard>
         </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>.</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibFileItem>lib_apertura_archivos_windows.a</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
       </compileType>
       <item path="Biblioteca.cpp" ex="false" tool="1" flavor2="0">
       </item>

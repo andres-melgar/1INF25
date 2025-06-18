@@ -7,4 +7,14 @@ Revista::Revista() {
     this->vigencia = 0;
 }
 
-
+void Revista::lee(ifstream &archivo_de_libros){
+    
+}
+    
+void Revista::actualiza(){
+    
+}
+    
+void Revista::imprime(){
+    
+}

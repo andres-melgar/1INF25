@@ -11,8 +11,11 @@ public:
     Lista();    
     
     ~Lista();
+    
+    void insertar(char tipo_libro, int capacidad, ifstream &archivo_de_libros);
 private:
-    void inicializar();
+    void inicializar();        
+    
     void eliminar();
 };
 

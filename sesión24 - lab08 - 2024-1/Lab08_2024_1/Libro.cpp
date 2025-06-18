@@ -11,3 +11,11 @@ Libro::~Libro() {
     libera_cadena(this->nombre);
 }
 
+void Libro::lee(ifstream &archivo_de_libros){
+    
+}
+    
+void Libro::imprime(){
+    
+}
+
