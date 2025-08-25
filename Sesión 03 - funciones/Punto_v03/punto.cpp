@@ -51,6 +51,15 @@ ostream & operator<<(ostream &os, const TPunto &p) {
     return os;
 }
 
+istream & operator>>(istream &arch, TPunto &p) {
+    arch >> p.x;
+    if (arch.eof())
+        return arch;
+    arch.get();
+    arch >> p.y;
+    return arch;
+}
+
 bool operator==(const TPunto &p1, const TPunto &p2) {
     return p1.x == p2.x && p1.y == p2.y;
 }

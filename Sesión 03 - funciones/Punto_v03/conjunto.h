@@ -7,7 +7,7 @@ typedef struct {
     int cantidad;
 } ConjuntoDatosPuntos;
 
-void cargar_conjunto_de_puntos(ConjuntoDatosPuntos &conjunto);
+void cargar_conjunto_de_puntos(ConjuntoDatosPuntos &conjunto, char *nombre_archivo);
 
 void imprimir_conjunto_de_puntos(const ConjuntoDatosPuntos &conjunto);
 #endif //PUNTO_V03_CONJUNTO_H

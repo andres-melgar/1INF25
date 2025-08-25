@@ -34,6 +34,8 @@ void operator++(TPunto &p, int);
 
 ostream & operator<<(ostream &os, const TPunto &p);
 
+istream & operator>>(istream &arch, TPunto &p);
+
 bool operator==(const TPunto &p1, const TPunto &p2);
 
 TPunto operator+(const TPunto &p1, const TPunto &p2);
