@@ -1,6 +1,6 @@
 #include <fstream>
-#include "conjunto.h"
-#include "punto.h"
+#include "LibreriaEstatica/conjunto.h"
+#include "LibreriaEstatica/punto.h"
 
 using namespace std;
 

@@ -1,6 +1,5 @@
 #include <fstream>
 #include "conjunto.h"
-#include "punto.h"
 
 using namespace std;
 
