@@ -2,8 +2,8 @@
 // Created by amelgar on 19/08/2025.
 //
 
-#ifndef PUNTO_V02_PUNTO_H
-#define PUNTO_V02_PUNTO_H
+#ifndef PUNTO_V04_PUNTO_H
+#define PUNTO_V04_PUNTO_H
 
 #include <iostream>
 
@@ -40,4 +40,4 @@ bool operator==(const TPunto &p1, const TPunto &p2);
 
 TPunto operator+(const TPunto &p1, const TPunto &p2);
 
-#endif //PUNTO_V02_PUNTO_H
+#endif //PUNTO_V04_PUNTO_H

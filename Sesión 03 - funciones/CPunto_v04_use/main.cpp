@@ -1,6 +1,4 @@
 #include <iostream>
-#include <cassert>
-#include "LibreriaEstatica/punto.h"
 #include "LibreriaEstatica/conjunto.h"
 
 using namespace std;
