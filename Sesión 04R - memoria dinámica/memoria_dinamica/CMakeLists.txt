@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(memoria_dinamica main.cpp
         ConjuntoNumeros.h
-        ConjuntoNumeros.cpp)
+        ConjuntoNumeros.cpp
+        ConjuntoNombres.cpp
+        ConjuntoNombres.h)
