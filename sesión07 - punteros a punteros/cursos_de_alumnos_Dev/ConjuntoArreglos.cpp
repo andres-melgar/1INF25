@@ -13,13 +13,52 @@ void cargar_conjunto_de_arreglos(ConjuntoArreglos &conjuntoArreglos, const char 
         exit(10);
     }
        
-   //TODO
+   //Paso 1 de slide 48
+    int buffer_codigo[50];
+    char *buffer_nombre[50];
+    char **buffer_cursos[50];
 
+    int i=0;
+    while (true) {
+        //Paso 2 de slide 48
+        archivo >> buffer_codigo[i];
+        if (archivo.eof()) {
+            break;
+        }
+        archivo.get();
+        //Paso 2 de slide 48
+        buffer_nombre[i] = sacar_nombre(archivo);
+        //Paso 2 de slide 48
+        buffer_cursos[i] = sacar_cursos(archivo);
+        i++;
+    }
+    //Paso 3 de slide 48
+    conjuntoArreglos.cantidad = i;
+    conjuntoArreglos.codigo = new int [conjuntoArreglos.cantidad];
+    conjuntoArreglos.nombre = new char *[conjuntoArreglos.cantidad];
+    conjuntoArreglos.cursos = new char **[conjuntoArreglos.cantidad];
+
+    //Paso 4 de slide 48
+    for (i=0; i<conjuntoArreglos.cantidad; i++) {
+        conjuntoArreglos.codigo[i] = buffer_codigo[i];
+        //el siguiente código está mal pues no se ha reservado
+        //espacio para conjuntoArreglos.nombre[i]
+        //strcpy(conjuntoArreglos.nombre[i], buffer_nombre[i]);
+        conjuntoArreglos.nombre[i] = buffer_nombre[i];
+        conjuntoArreglos.cursos[i] = buffer_cursos[i];
+    }
     archivo.close();
 }
 
 char *sacar_nombre(ifstream &archivo){
-    //TODO
+    char buffer_nombre[100];
+    archivo.getline(buffer_nombre, 100, ',');
+    char *nombre_persona = new char[strlen(buffer_nombre)+1];
+    strcpy(nombre_persona, buffer_nombre);
+    return nombre_persona;
+    //el siguiente código se considera un error grave en el curso
+    //y anula toda la respuesta
+    //return buffer_nombre;
 }
 
 char **sacar_cursos(ifstream &archivo){    
