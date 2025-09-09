@@ -14,10 +14,10 @@ void test03();
 void test04();
 
 int main(int argc, char** argv) {
-    test01();
+    //test01();
     test02();
-    test03();
-    test04();
+    //test03();
+    //test04();
     return 0;
 }
 
