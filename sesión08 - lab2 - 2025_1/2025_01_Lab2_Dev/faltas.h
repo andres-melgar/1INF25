@@ -2,6 +2,7 @@
 #define FALTAS_HPP
 #include "conductores.h"
 #include "infracciones.h"
+#define INCREMENTO_BLOQUE 2
 
 struct Faltas {
     Conductores conductores;

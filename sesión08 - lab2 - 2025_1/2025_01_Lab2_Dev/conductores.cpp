@@ -40,6 +40,10 @@ void operator+=(Conductores &conductores, const char *nombre_de_archivo) {
 }
 
 int retornar_indice_del_conductor(const Conductores &conductores, int dni) {
-    //TODO
+    for (int i = 0; i < conductores.cantidad; i++) {
+        if (dni == conductores.dnis[i]) {
+            return i;
+        }
+    }
     return -1;
 }
