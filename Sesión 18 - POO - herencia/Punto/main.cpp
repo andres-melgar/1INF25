@@ -5,6 +5,7 @@
 
 #include "CPoligono.h"
 #include "CPunto2D.h"
+#include "CPunto3D.h"
 
 using namespace std;
 
@@ -17,8 +18,6 @@ void test06();
 void test07();
 void test08();
 void test09();
-void test10();
-void test11();
 
 int main() {
     /*test01();
@@ -30,46 +29,17 @@ int main() {
     test07();
     test08();*/
     test09();
-    test10();
-    test11();
     return 0;
-}
-
-void test11() {
-    cout << "test11" << endl;
-    CPunto2D p1;
-    p1.setX(10);
-    p1.setY(20);
-    cout << p1;
-    assert(p1.getX() == 10);
-    assert(p1.getY() == 20);
-
-}
-
-void test10() {
-    cout << "test10" << endl;
-    CPunto2D p1;
-    p1.setX(10);
-    p1.setY(20);
-
-    assert(p1.getX() == 10);
-    assert(p1.getY() == 20);
-
-    ++p1;
-    assert(p1.getX() == 11);
-    assert(p1.getY() == 21);
 }
 
 void test09() {
     cout << "test09" << endl;
-    CPunto2D p1(2,1), p2(-3,1);
-    bool es_igual = p1==p2;
-    assert(es_igual==false);
-
-    p1 = CPunto2D(5, 8);
-    p2 = CPunto2D(5, 8);
-    es_igual = p1==p2;
-    assert(es_igual==true);
+    CPunto3D p1, p2;
+    p1.setX(10);
+    p1.setY(20);
+    p2.setX(10);
+    p2.setY(20);
+    assert(p1.es_igual(p2)==true);
 }
 
 void test08() {

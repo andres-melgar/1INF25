@@ -18,22 +18,8 @@ void CPunto2D::imprimir() {
     cout << "(" << this->x << ", " << this->y << ")" << endl;
 }
 
-bool CPunto2D::operator==(const CPunto2D &punto) {
-    return this->es_igual(punto);
-}
-
-void CPunto2D::operator++() {
-    this->x++;
-    this->y++;
-}
-
-ostream& operator<<(ostream& out, const CPunto2D& punto) {
-    out << "(" << punto.x << ", " << punto.y << ")" << endl;
-    return out;
-}
-
 bool CPunto2D::es_igual(const CPunto2D &punto) {
-    return this->x == punto.x and this->y == punto.y;
+    return x == punto.x and y == punto.y;
 }
 
 double CPunto2D::distancia(const CPunto2D &punto) {

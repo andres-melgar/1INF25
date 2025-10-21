@@ -1,9 +1,6 @@
 #ifndef PUNTO_V01_CPUNTO2D_H
 #define PUNTO_V01_CPUNTO2D_H
 
-#include <iostream>
-
-using namespace std;
 
 class CPunto2D {
 private:
@@ -17,10 +14,6 @@ public:
 
     void imprimir();
 
-    bool operator==(const CPunto2D &punto);
-
-    void operator++();
-
     double distancia(const CPunto2D &punto);
 
     bool es_igual(const CPunto2D &punto);
@@ -32,8 +25,6 @@ public:
     double getX();
 
     double getY();
-
-    friend ostream& operator<< (ostream& out, const CPunto2D& punto);
 };
 
 
