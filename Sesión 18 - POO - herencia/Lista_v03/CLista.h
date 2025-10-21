@@ -35,11 +35,11 @@ public:
 
     void destruir();
 
-    bool estaVacia();
+    virtual bool estaVacia(); //significa que si lo desea la clase derivada lo puede sobreescribir
 
     double getElementoPorIndice(int indice);
 
-    int getLongitud() const;
+    virtual int getLongitud() const;
 
     friend ostream & operator<<(ostream &out, CLista &lista);
 
